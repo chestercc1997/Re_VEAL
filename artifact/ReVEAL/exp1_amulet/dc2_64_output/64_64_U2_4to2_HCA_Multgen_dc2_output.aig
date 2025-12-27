@@ -1,0 +1,29 @@
+[amulet2] AMulet Version 2.2
+[amulet2] Aiger multiplier examination tool
+[amulet2] Copyright(C) 2020, 2021, Daniela Kaufmann, Johannes Kepler University Linz
+[amulet2] selected mode: verification
+[amulet2] reading '/data/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_HCA_Multgen_dc2.aig'
+[amulet2] MILOA 43298 128 0 128 43170
+[amulet2] assuming ordering as in the ABC generated or AOKI benchmarks
+[amulet2] allocating 43426 gates
+[amulet2] found 66 partial products
+[amulet2] assuming booth recoding
+[amulet2] found 8679 xor-gates
+[amulet2] marking xor chain gates
+[amulet2] marked 78 xor gates in last slice
+[amulet2] remove internal xor gates
+[amulet2] removed 8761 internal xor gates
+[amulet2] slicing based on input cones
+[amulet2] totally merged 12971 variable(s)
+[amulet2] totally promoted 545 variable(s)
+[amulet2] filled 128 slices
+[amulet2] eliminate single occs
+[amulet2] decomposed 16650 variables
+[amulet2] 
+[amulet2] 
+[amulet2] started reducing
+[amulet2] reducing by slice 127
+[amulet2] reducing by slice 126
+[amulet2] reducing by slice 125
+[amulet2] reducing by slice 124
+[amulet2] reducing by slice 123

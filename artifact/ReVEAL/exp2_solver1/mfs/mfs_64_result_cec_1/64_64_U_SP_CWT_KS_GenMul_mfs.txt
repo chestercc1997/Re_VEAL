@@ -1,0 +1,3 @@
+ABC command line: "cec /data/artifact/AMulet2.0_artifact/64_mfs/64_64_U_SP_CWT_KS_GenMul_mfs.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default.aig".
+
+Networks are equivalent.  Time =    10.20 sec

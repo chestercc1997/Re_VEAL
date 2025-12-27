@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_lazyman/64_64_U1_DT_KS_Multgen_lazyman.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  12.74 %  P =      0  D =      0  F =       0  cst =      938  cls =   13273  lit =    15245   Time =     0.00 sec
+Sim    1 :  11.82 %  P =      0  D =      0  F =       0  cst =      611  cls =   13178  lit =    14141   Time =     0.01 sec
+Sim    2 :  11.74 %  P =      0  D =      0  F =       0  cst =      586  cls =   13153  lit =    14040   Time =     0.00 sec
+Sim    3 :  11.70 %  P =      0  D =      0  F =       0  cst =      572  cls =   13147  lit =    14001   Time =     0.00 sec
+Sim    4 :  11.69 %  P =      0  D =      0  F =       0  cst =      566  cls =   13144  lit =    13983   Time =     0.00 sec
+Sim    5 :  11.62 %  P =      0  D =     35  F =       0  cst =      542  cls =   13121  lit =    13906   Time =     0.23 sec
+SAT    6 : 100.00 %  P =   9170  D =     37  F =       0  cst =      503  cls =   13098  lit =    13820   Time =    56.10 sec
+SAT calls = 9207:  P = 9170 (0=79 a=16.50 m=9057)  D = 37 (0=0 a=4878.32 m=48083)  F = 0   Sim = 14  Recyc = 18  Xor = 4.83 %
+SAT solving   =    56.00 sec ( 99.36 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =    41.05 sec ( 72.84 %)
+  unsat(easy) =     0.01 sec (  0.01 %)
+  unsat       =    14.94 sec ( 26.51 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.24 sec (  0.43 %)
+Generate pats =     0.22 sec (  0.39 %)
+Simulation    =     0.02 sec (  0.04 %)
+Refinement    =     0.01 sec (  0.01 %)
+Resim global  =     0.00 sec (  0.00 %)
+Resim local   =     0.08 sec (  0.15 %)
+Other         =     0.02 sec (  0.04 %)
+TOTAL         =    56.35 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_lazyman/64_64_U1_DT_KS_Multgen_lazyman_/data/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 56.46 seconds, total: 56.46 seconds

@@ -1,0 +1,8 @@
+创建日志文件: ./dc2_128_result/128_128_U2_4to2_HCA_Multgen_dc2/output.txt
+ABC command line: "&cec '/data/artifact/AMulet2.0_artifact/128_dc2/128_128_U2_4to2_HCA_Multgen_dc2.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U2_4to2_HCA_Multgen_default.aig'".
+
+Networks are equivalent.  Time =   267.60 sec
+parallel: This job finished:
+/usr/bin/time -v ./abc -c "&cec '/data/artifact/AMulet2.0_artifact/128_dc2/128_128_U2_4to2_HCA_Multgen_dc2.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U2_4to2_HCA_Multgen_default.aig'" 2> /tmp/tmp.w1s0NyppSk
+Total memory usage: 129428 KB
+处理完成，输出文件在: ./dc2_128_result/128_128_U2_4to2_HCA_Multgen_dc2

@@ -1,0 +1,8 @@
+创建日志文件: ./dc2_64_result//output.txt
+缺失输出文件: ./cnf_dc2_64//cnf1.cnf
+缺失输出文件: ./cnf_dc2_64//cnf2.cnf
+缺失输出文件: ./cnf_dc2_64//cnf3.cnf
+缺失对应的AIG文件: /data/artifact/AMulet2.0_artifact/64_default/.aig
+缺失对应的AIG文件: /data/artifact/AMulet2.0_artifact/64_default/.aig
+缺失对应的AIG文件: /data/artifact/AMulet2.0_artifact/64_default/.aig
+没有可执行的命令，因为所有相关文件都缺失。

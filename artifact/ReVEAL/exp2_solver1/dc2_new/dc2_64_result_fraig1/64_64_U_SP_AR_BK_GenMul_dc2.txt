@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  23.22 %  P =      0  D =      0  F =       0  cst =      517  cls =   18184  lit =    18708   Time =     0.00 sec
+Sim    1 :  23.21 %  P =      0  D =      0  F =       0  cst =      511  cls =   18182  lit =    18695   Time =     0.00 sec
+Sim    2 :  23.21 %  P =      0  D =      0  F =       0  cst =      511  cls =   18182  lit =    18695   Time =     0.00 sec
+Sim    3 :  23.20 %  P =      0  D =      0  F =       0  cst =      511  cls =   18180  lit =    18693   Time =     0.00 sec
+Sim    4 :  23.20 %  P =      0  D =      0  F =       0  cst =      511  cls =   18180  lit =    18693   Time =     0.00 sec
+Sim    5 :  23.20 %  P =      0  D =      0  F =       0  cst =      511  cls =   18180  lit =    18693   Time =     0.29 sec
+SAT    6 : 100.00 %  P =  11028  D =     42  F =       0  cst =      507  cls =   18064  lit =    18571   Time =    15.10 sec
+SAT calls = 11070:  P = 11028 (0=1 a=3.65 m=11)  D = 42 (0=18 a=6688.79 m=114661)  F = 0   Sim = 13  Recyc = 22  Xor = 15.69 %
+SAT solving   =    15.05 sec ( 97.63 %)
+  sat(easy)   =     0.02 sec (  0.16 %)
+  sat         =    14.33 sec ( 92.97 %)
+  unsat(easy) =     0.00 sec (  0.00 %)
+  unsat       =     0.69 sec (  4.50 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.60 sec (  3.91 %)
+Generate pats =     0.29 sec (  1.89 %)
+Simulation    =     0.02 sec (  0.10 %)
+Refinement    =     0.00 sec (  0.03 %)
+Resim global  =     0.00 sec (  0.01 %)
+Resim local   =     0.04 sec (  0.24 %)
+Other         =     0.02 sec (  0.12 %)
+TOTAL         =    15.41 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 15.49 seconds, total: 15.49 seconds

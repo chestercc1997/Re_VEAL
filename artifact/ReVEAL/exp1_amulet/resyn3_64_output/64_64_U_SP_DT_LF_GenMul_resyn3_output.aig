@@ -1,0 +1,150 @@
+[amulet2] AMulet Version 2.2
+[amulet2] Aiger multiplier examination tool
+[amulet2] Copyright(C) 2020, 2021, Daniela Kaufmann, Johannes Kepler University Linz
+[amulet2] selected mode: verification
+[amulet2] reading '/data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_DT_LF_GenMul_resyn3.aig'
+[amulet2] MILOA 42690 128 0 128 42562
+[amulet2] assuming ordering as in the ABC generated or AOKI benchmarks
+[amulet2] allocating 42818 gates
+[amulet2] found 4096 partial products
+[amulet2] assuming simple pp generator
+[amulet2] found 8000 xor-gates
+[amulet2] marking xor chain gates
+[amulet2] marked 0 xor gates in last slice
+[amulet2] remove internal xor gates
+[amulet2] removed 12982 internal xor gates
+[amulet2] slicing based on xor
+[amulet2] remove single occurence gates
+[amulet2] removed 13944 single occurence gates
+[amulet2] insert l85328 after l85340
+[amulet2] insert l85280 after l85290
+[amulet2] insert l85202 after l85214
+[amulet2] insert l85114 after l85124
+[amulet2] insert l85004 after l85014
+[amulet2] insert l84882 after l84890
+[amulet2] insert l84722 after l84734
+[amulet2] insert l84554 after l84564
+[amulet2] insert l84364 after l84374
+[amulet2] insert l84162 after l84170
+[amulet2] insert l83930 after l83940
+[amulet2] insert l83688 after l83696
+[amulet2] insert l83424 after l83432
+[amulet2] insert l83146 after l83150
+[amulet2] insert l83142 after l83150
+[amulet2] insert l82822 after l82834
+[amulet2] insert l82494 after l82504
+[amulet2] insert l82144 after l82154
+[amulet2] insert l81782 after l81790
+[amulet2] insert l81390 after l81400
+[amulet2] insert l80988 after l80996
+[amulet2] insert l80564 after l80572
+[amulet2] insert l80122 after l80130
+[amulet2] insert l79646 after l79656
+[amulet2] insert l79156 after l79164
+[amulet2] insert l78644 after l78652
+[amulet2] insert l78118 after l78126
+[amulet2] insert l77558 after l77566
+[amulet2] insert l76992 after l77000
+[amulet2] insert l76398 after l76406
+[amulet2] insert l75792 after l75798
+[amulet2] insert l75130 after l75142
+[amulet2] insert l74456 after l74466
+[amulet2] insert l73776 after l73786
+[amulet2] insert l73092 after l73100
+[amulet2] insert l72374 after l72384
+[amulet2] insert l71642 after l71650
+[amulet2] insert l70896 after l70904
+[amulet2] insert l70126 after l70132
+[amulet2] insert l69310 after l69320
+[amulet2] insert l68490 after l68498
+[amulet2] insert l67648 after l67656
+[amulet2] insert l66794 after l66800
+[amulet2] insert l65910 after l65918
+[amulet2] insert l65000 after l65006
+[amulet2] insert l64064 after l64070
+[amulet2] insert l63116 after l63122
+[amulet2] insert l62122 after l62132
+[amulet2] insert l61118 after l61126
+[amulet2] insert l60070 after l60078
+[amulet2] insert l59030 after l59036
+[amulet2] insert l57972 after l57980
+[amulet2] insert l56896 after l56902
+[amulet2] insert l55794 after l55800
+[amulet2] insert l54678 after l54684
+[amulet2] insert l53516 after l53524
+[amulet2] insert l52340 after l52346
+[amulet2] insert l51106 after l51112
+[amulet2] insert l49886 after l49892
+[amulet2] insert l48652 after l48658
+[amulet2] insert l47400 after l47406
+[amulet2] insert l46090 after l46094
+[amulet2] insert l43438 after l43450
+[amulet2] insert l42094 after l42102
+[amulet2] insert l40668 after l40676
+[amulet2] insert l39324 after l39332
+[amulet2] insert l37994 after l38004
+[amulet2] insert l36694 after l36702
+[amulet2] insert l35428 after l35436
+[amulet2] insert l34198 after l34204
+[amulet2] insert l32976 after l32984
+[amulet2] insert l31800 after l31806
+[amulet2] insert l30590 after l30596
+[amulet2] insert l29444 after l29448
+[amulet2] insert l28322 after l28330
+[amulet2] insert l27230 after l27234
+[amulet2] insert l26162 after l26166
+[amulet2] insert l25120 after l25126
+[amulet2] insert l24086 after l24096
+[amulet2] insert l23090 after l23098
+[amulet2] insert l22112 after l22120
+[amulet2] insert l21164 after l21168
+[amulet2] insert l20238 after l20246
+[amulet2] insert l19326 after l19330
+[amulet2] insert l18450 after l18454
+[amulet2] insert l17588 after l17594
+[amulet2] insert l16738 after l16746
+[amulet2] insert l15900 after l15906
+[amulet2] insert l15082 after l15088
+[amulet2] insert l14294 after l14300
+[amulet2] insert l13532 after l13538
+[amulet2] insert l12776 after l12782
+[amulet2] insert l12062 after l12066
+[amulet2] insert l10648 after l10656
+[amulet2] insert l9982 after l9988
+[amulet2] insert l9356 after l9362
+[amulet2] insert l8752 after l8758
+[amulet2] insert l8164 after l8172
+[amulet2] insert l7602 after l7608
+[amulet2] insert l7062 after l7068
+[amulet2] insert l6546 after l6550
+[amulet2] insert l6026 after l6040
+[amulet2] insert l5560 after l5564
+[amulet2] insert l5104 after l5108
+[amulet2] insert l4676 after l4678
+[amulet2] insert l4254 after l4260
+[amulet2] insert l3864 after l3870
+[amulet2] insert l3494 after l3498
+[amulet2] insert l2804 after l2810
+[amulet2] insert l2498 after l2500
+[amulet2] insert l2496 after l2498
+[amulet2] insert l2200 after l2204
+[amulet2] insert l1930 after l1934
+[amulet2] insert l1674 after l1678
+[amulet2] insert l1444 after l1448
+[amulet2] insert l1234 after l1238
+[amulet2] insert l872 after l876
+[amulet2] insert l722 after l726
+[amulet2] insert l592 after l596
+[amulet2] insert l396 after l400
+[amulet2] moved 0 gates to smaller slices
+[amulet2] remove gates that are not assigned to slices
+[amulet2] removed 4173 gates that are not assigned to slices
+[amulet2] 
+[amulet2] 
+[amulet2] started reducing
+[amulet2] reducing by slice 127
+[amulet2] reducing by slice 126
+[amulet2] reducing by slice 125
+[amulet2] reducing by slice 124
+[amulet2] reducing by slice 123
+[amulet2] reducing by slice 122

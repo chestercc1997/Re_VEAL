@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_lazyman/64_64_U2_4to2_RC_Multgen_lazyman.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  13.66 %  P =      0  D =      0  F =       0  cst =      859  cls =   16417  lit =    17745   Time =     0.00 sec
+Sim    1 :  13.37 %  P =      0  D =      0  F =       0  cst =      735  cls =   16352  lit =    17372   Time =     0.00 sec
+Sim    2 :  13.35 %  P =      0  D =      0  F =       0  cst =      728  cls =   16350  lit =    17342   Time =     0.00 sec
+Sim    3 :  13.34 %  P =      0  D =      0  F =       0  cst =      726  cls =   16346  lit =    17334   Time =     0.00 sec
+Sim    4 :  13.33 %  P =      0  D =      0  F =       0  cst =      718  cls =   16345  lit =    17320   Time =     0.00 sec
+Sim    5 :  13.33 %  P =      0  D =      0  F =       0  cst =      718  cls =   16343  lit =    17317   Time =     0.07 sec
+SAT    6 : 100.00 %  P =  13453  D =     12  F =       0  cst =      708  cls =   16334  lit =    17290   Time =     1.36 sec
+SAT calls = 13465:  P = 13453 (0=66 a=11.04 m=120)  D = 12 (0=0 a=186.33 m=1155)  F = 0   Sim = 13  Recyc = 26  Xor = 4.39 %
+SAT solving   =     1.33 sec ( 91.27 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =     0.14 sec (  9.49 %)
+  unsat(easy) =     0.01 sec (  0.74 %)
+  unsat       =     1.18 sec ( 81.04 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.28 sec ( 19.39 %)
+Generate pats =     0.06 sec (  4.35 %)
+Simulation    =     0.02 sec (  1.37 %)
+Refinement    =     0.01 sec (  0.42 %)
+Resim global  =     0.00 sec (  0.12 %)
+Resim local   =     0.01 sec (  0.75 %)
+Other         =     0.03 sec (  1.84 %)
+TOTAL         =     1.45 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_lazyman/64_64_U2_4to2_RC_Multgen_lazyman_/data/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 1.56 seconds, total: 1.56 seconds

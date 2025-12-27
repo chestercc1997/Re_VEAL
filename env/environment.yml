@@ -1,0 +1,44 @@
+# Conda environment file for PyTorch + PyG
+# This is a reference file - the setup script installs packages via pip
+# for better CUDA compatibility
+
+name: pyg_env
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    # Note: PyTorch and PyG are installed separately via pip
+    # with specific index URLs for CUDA support
+    
+    # Core scientific computing
+    - numpy
+    - scipy
+    - pandas
+    - scikit-learn
+    
+    # Visualization
+    - matplotlib
+    - seaborn
+    
+    # Jupyter
+    - jupyterlab
+    - ipywidgets
+    
+    # Utilities
+    - tqdm
+    - rich
+    - psutil
+    - networkx
+    - pybind11
+    
+    # Hyperparameter optimization
+    - optuna[visualization]>=3.6
+    - optuna-dashboard>=0.14
+
+# Environment variables
+variables:
+  PYTHONUNBUFFERED: "1"

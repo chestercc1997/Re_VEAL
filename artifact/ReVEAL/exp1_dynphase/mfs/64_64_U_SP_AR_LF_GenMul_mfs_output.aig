@@ -1,0 +1,3 @@
+Verification of circuit file /data/artifact/AMulet2.0_artifact/64_mfs/mfs_U/64_64_U_SP_AR_LF_GenMul_mfs.aig started.
+Error in node IDs. Abort.0
+Something went wrong during parsing the circuit file. Maybe file was not found?

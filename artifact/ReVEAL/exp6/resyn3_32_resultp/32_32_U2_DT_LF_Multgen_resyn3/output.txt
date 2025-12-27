@@ -1,0 +1,5 @@
+创建日志文件: ./resyn3_32_resultp/32_32_U2_DT_LF_Multgen_resyn3/output.txt
+缺失输出文件: ./cnf_resyn3_32/32_32_U2_DT_LF_Multgen_resyn3/cnf3.cnf
+缺失对应的AIG文件: /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_HCA_Multgen_default.aig
+Total memory usage: 0 KB
+处理完成，输出文件在: ./resyn3_32_resultp/32_32_U2_DT_LF_Multgen_resyn3

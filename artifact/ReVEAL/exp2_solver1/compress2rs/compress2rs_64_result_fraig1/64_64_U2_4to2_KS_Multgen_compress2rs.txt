@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_compress2rs/64_64_U2_4to2_KS_Multgen_compress2rs.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  29.27 %  P =      0  D =      0  F =       0  cst =      789  cls =   25972  lit =    27115   Time =     0.00 sec
+Sim    1 :  29.02 %  P =      0  D =      0  F =       0  cst =      703  cls =   26005  lit =    26879   Time =     0.00 sec
+Sim    2 :  29.00 %  P =      0  D =      0  F =       0  cst =      698  cls =   26006  lit =    26865   Time =     0.00 sec
+Sim    3 :  29.00 %  P =      0  D =      0  F =       0  cst =      698  cls =   26005  lit =    26864   Time =     0.00 sec
+Sim    4 :  28.99 %  P =      0  D =      0  F =       0  cst =      696  cls =   26005  lit =    26858   Time =     0.00 sec
+Sim    5 :  28.99 %  P =      0  D =      0  F =       0  cst =      696  cls =   26005  lit =    26858   Time =     0.06 sec
+SAT    6 : 100.00 %  P =  16175  D =      7  F =       0  cst =      691  cls =   26004  lit =    26843   Time =    17.94 sec
+SAT calls = 16182:  P = 16175 (0=42 a=3.32 m=72)  D = 7 (0=0 a=27890.71 m=190681)  F = 0   Sim = 13  Recyc = 32  Xor = 11.38 %
+SAT solving   =    17.91 sec ( 99.36 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =    17.64 sec ( 97.81 %)
+  unsat(easy) =     0.00 sec (  0.00 %)
+  unsat       =     0.28 sec (  1.55 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.12 sec (  0.65 %)
+Generate pats =     0.06 sec (  0.33 %)
+Simulation    =     0.02 sec (  0.10 %)
+Refinement    =     0.01 sec (  0.03 %)
+Resim global  =     0.00 sec (  0.01 %)
+Resim local   =     0.01 sec (  0.07 %)
+Other         =     0.02 sec (  0.11 %)
+TOTAL         =    18.03 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_compress2rs/64_64_U2_4to2_KS_Multgen_compress2rs_/data/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 18.11 seconds, total: 18.11 seconds

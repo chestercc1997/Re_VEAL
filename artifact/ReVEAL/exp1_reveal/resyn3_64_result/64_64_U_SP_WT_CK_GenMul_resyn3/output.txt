@@ -1,0 +1,8 @@
+创建日志文件: ./resyn3_64_result/64_64_U_SP_WT_CK_GenMul_resyn3/output.txt
+ABC command line: "&cec '/data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_WT_CK_GenMul_resyn3.aig' '/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default.aig'".
+
+Networks are equivalent.  Time =     9.03 sec
+parallel: This job finished:
+/usr/bin/time -v ./abc -c "&cec '/data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_WT_CK_GenMul_resyn3.aig' '/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default.aig'" 2> /tmp/tmp.tWMjSXh9um
+Total memory usage: 35268 KB
+处理完成，输出文件在: ./resyn3_64_result/64_64_U_SP_WT_CK_GenMul_resyn3

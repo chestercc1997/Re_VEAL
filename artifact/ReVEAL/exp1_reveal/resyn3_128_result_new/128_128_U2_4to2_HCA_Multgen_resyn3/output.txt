@@ -1,0 +1,8 @@
+创建日志文件: ./resyn3_128_result_new/128_128_U2_4to2_HCA_Multgen_resyn3/output.txt
+ABC command line: "cec '/data/artifact/AMulet2.0_artifact/128_resyn3/128_128_U2_4to2_HCA_Multgen_resyn3.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U2_4to2_BK_Multgen_default.aig'".
+
+Networks are equivalent.  Time =     7.27 sec
+parallel: This job finished:
+/usr/bin/time -v ./abc -c "cec '/data/artifact/AMulet2.0_artifact/128_resyn3/128_128_U2_4to2_HCA_Multgen_resyn3.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U2_4to2_BK_Multgen_default.aig'" 2> /tmp/tmp.9YkRQSxY5P
+Total memory usage: 249960 KB
+处理完成，输出文件在: ./resyn3_128_result_new/128_128_U2_4to2_HCA_Multgen_resyn3

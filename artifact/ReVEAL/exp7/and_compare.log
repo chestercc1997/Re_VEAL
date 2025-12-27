@@ -1,0 +1,1550 @@
+[2025-12-10 08:01:38] ===== Start compare run =====
+Default dir: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default
+DC2 dir:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2
+ABC path:    /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc
+Total default candidates: 64
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_BK_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_BK_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_BK_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_BK_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_BK_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_BK_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  41866  lev = 65
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 41866
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_BK_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_BK_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_BK_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_BK_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  33255  lev =171
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 33255
+[2025-12-10 08:01:38] Result row: index=1, default=41866, dc2=33255, diff=-8611, rel%=-20.5680
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_HCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_HCA_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_HCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_HCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_HCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  42469  lev = 60
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 42469
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_HCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_HCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_HCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  33346  lev =157
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 33346
+[2025-12-10 08:01:38] Result row: index=2, default=42469, dc2=33346, diff=-9123, rel%=-21.4816
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_JCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_JCA_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_JCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_JCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_JCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  42454  lev = 58
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 42454
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_JCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_JCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_JCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  33378  lev =122
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 33378
+[2025-12-10 08:01:38] Result row: index=3, default=42454, dc2=33378, diff=-9076, rel%=-21.3784
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_KS_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_KS_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_KS_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_KS_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_KS_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_KS_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  43402  lev = 58
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 43402
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_KS_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_KS_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_KS_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_KS_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  33811  lev =139
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 33811
+[2025-12-10 08:01:38] Result row: index=4, default=43402, dc2=33811, diff=-9591, rel%=-22.0981
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_LF_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_LF_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_LF_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_LF_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_LF_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_LF_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  42454  lev = 58
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 42454
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_LF_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_LF_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_LF_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_LF_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  33378  lev =122
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 33378
+[2025-12-10 08:01:38] Result row: index=5, default=42454, dc2=33378, diff=-9076, rel%=-21.3784
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_RC_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_RC_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_RC_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_RC_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_RC_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_4to2_RC_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  41764  lev =374
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 41764
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_RC_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_RC_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_RC_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_4to2_RC_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  33176  lev =257
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 33176
+[2025-12-10 08:01:38] Result row: index=6, default=41764, dc2=33176, diff=-8588, rel%=-20.5632
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_BK_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_BK_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_BK_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_BK_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_BK_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  48092  lev = 57
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 48092
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_BK_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:38] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_BK_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_BK_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  36108  lev =169
+[2025-12-10 08:01:38] --- ABC OUTPUT END ---
+[2025-12-10 08:01:38] ---- END ABC (OK) ----
+[2025-12-10 08:01:38] Parsed AND: 36108
+[2025-12-10 08:01:38] Result row: index=7, default=48092, dc2=36108, diff=-11984, rel%=-24.9189
+[2025-12-10 08:01:38] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_HCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:38] ---- BEGIN ABC ----
+[2025-12-10 08:01:38] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_HCA_Multgen_default.aig
+[2025-12-10 08:01:38] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_HCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_HCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_HCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  48695  lev = 53
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 48695
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_HCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_HCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_HCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  36274  lev =134
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 36274
+[2025-12-10 08:01:39] Result row: index=8, default=48695, dc2=36274, diff=-12421, rel%=-25.5078
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_JCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_JCA_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_JCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_JCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_JCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  48680  lev = 51
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 48680
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_JCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_JCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_JCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  36247  lev =120
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 36247
+[2025-12-10 08:01:39] Result row: index=9, default=48680, dc2=36247, diff=-12433, rel%=-25.5403
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_KS_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_KS_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_KS_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_KS_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_KS_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  49640  lev = 51
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 49640
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_KS_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_KS_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_KS_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  36636  lev =133
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 36636
+[2025-12-10 08:01:39] Result row: index=10, default=49640, dc2=36636, diff=-13004, rel%=-26.1966
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_LF_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_LF_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_LF_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_LF_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_LF_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  48680  lev = 51
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 48680
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_LF_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_LF_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_LF_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  36247  lev =120
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 36247
+[2025-12-10 08:01:39] Result row: index=11, default=48680, dc2=36247, diff=-12433, rel%=-25.5403
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  48000  lev =378
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 48000
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_RC_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_RC_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_DT_RC_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  36032  lev =259
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 36032
+[2025-12-10 08:01:39] Result row: index=12, default=48000, dc2=36032, diff=-11968, rel%=-24.9333
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_BK_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_BK_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_BK_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_BK_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_BK_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  49944  lev = 59
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 49944
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_BK_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_BK_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_BK_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  37543  lev =161
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 37543
+[2025-12-10 08:01:39] Result row: index=13, default=49944, dc2=37543, diff=-12401, rel%=-24.8298
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_HCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_HCA_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_HCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_HCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_HCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  50481  lev = 55
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 50481
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_HCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_HCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_HCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  37661  lev =140
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 37661
+[2025-12-10 08:01:39] Result row: index=14, default=50481, dc2=37661, diff=-12820, rel%=-25.3957
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_JCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_JCA_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_JCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_JCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_JCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  50433  lev = 53
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 50433
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_JCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_JCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_JCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  37656  lev =106
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 37656
+[2025-12-10 08:01:39] Result row: index=15, default=50433, dc2=37656, diff=-12777, rel%=-25.3346
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_KS_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_KS_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_KS_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_KS_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_KS_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  51336  lev = 53
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 51336
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_KS_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:39] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_KS_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_KS_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  37969  lev =149
+[2025-12-10 08:01:39] --- ABC OUTPUT END ---
+[2025-12-10 08:01:39] ---- END ABC (OK) ----
+[2025-12-10 08:01:39] Parsed AND: 37969
+[2025-12-10 08:01:39] Result row: index=16, default=51336, dc2=37969, diff=-13367, rel%=-26.0383
+[2025-12-10 08:01:39] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_LF_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:39] ---- BEGIN ABC ----
+[2025-12-10 08:01:39] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_LF_Multgen_default.aig
+[2025-12-10 08:01:39] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_LF_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_LF_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_LF_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  50433  lev = 53
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 50433
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_LF_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_LF_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_LF_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  37656  lev =106
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 37656
+[2025-12-10 08:01:40] Result row: index=17, default=50433, dc2=37656, diff=-12777, rel%=-25.3346
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_RC_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_RC_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_RC_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_RC_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U1_WT_RC_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  49856  lev =376
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 49856
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_RC_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_RC_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U1_WT_RC_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  37407  lev =261
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 37407
+[2025-12-10 08:01:40] Result row: index=18, default=49856, dc2=37407, diff=-12449, rel%=-24.9699
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_BK_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_BK_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_BK_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_BK_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_BK_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_BK_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  52251  lev = 73
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 52251
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_BK_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_BK_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_BK_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_BK_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  43061  lev =190
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 43061
+[2025-12-10 08:01:40] Result row: index=19, default=52251, dc2=43061, diff=-9190, rel%=-17.5882
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_HCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_HCA_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_HCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_HCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_HCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  52854  lev = 67
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 52854
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_HCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_HCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_HCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  43170  lev =156
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 43170
+[2025-12-10 08:01:40] Result row: index=20, default=52854, dc2=43170, diff=-9684, rel%=-18.3222
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_JCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_JCA_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_JCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_JCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_JCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  52854  lev = 65
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 52854
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_JCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_JCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_JCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  43231  lev =117
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 43231
+[2025-12-10 08:01:40] Result row: index=21, default=52854, dc2=43231, diff=-9623, rel%=-18.2068
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_KS_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_KS_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_KS_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_KS_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_KS_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_KS_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  53803  lev = 65
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 53803
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_KS_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_KS_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_KS_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_KS_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  43706  lev =142
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 43706
+[2025-12-10 08:01:40] Result row: index=22, default=53803, dc2=43706, diff=-10097, rel%=-18.7666
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_LF_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_LF_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_LF_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_LF_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_LF_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_LF_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  52854  lev = 65
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 52854
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_LF_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_LF_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_LF_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_LF_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  43231  lev =117
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 43231
+[2025-12-10 08:01:40] Result row: index=23, default=52854, dc2=43231, diff=-9623, rel%=-18.2068
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_RC_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_4to2_RC_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  52149  lev =377
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 52149
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_RC_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_RC_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_RC_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_4to2_RC_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  42989  lev =260
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 42989
+[2025-12-10 08:01:40] Result row: index=24, default=52149, dc2=42989, diff=-9160, rel%=-17.5651
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_BK_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_BK_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_BK_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_BK_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_BK_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  58432  lev = 62
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 58432
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_BK_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:40] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_BK_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_BK_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  45767  lev =180
+[2025-12-10 08:01:40] --- ABC OUTPUT END ---
+[2025-12-10 08:01:40] ---- END ABC (OK) ----
+[2025-12-10 08:01:40] Parsed AND: 45767
+[2025-12-10 08:01:40] Result row: index=25, default=58432, dc2=45767, diff=-12665, rel%=-21.6748
+[2025-12-10 08:01:40] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_HCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:40] ---- BEGIN ABC ----
+[2025-12-10 08:01:40] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_HCA_Multgen_default.aig
+[2025-12-10 08:01:40] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_HCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_HCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_HCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  59035  lev = 56
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 59035
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_HCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_HCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_HCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  45930  lev =139
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 45930
+[2025-12-10 08:01:41] Result row: index=26, default=59035, dc2=45930, diff=-13105, rel%=-22.1987
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_JCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_JCA_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_JCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_JCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_JCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  59035  lev = 54
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 59035
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_JCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_JCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_JCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  45898  lev =140
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 45898
+[2025-12-10 08:01:41] Result row: index=27, default=59035, dc2=45898, diff=-13137, rel%=-22.2529
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_KS_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_KS_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_KS_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_KS_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_KS_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  59998  lev = 54
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 59998
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_KS_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_KS_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_KS_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  46366  lev =138
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 46366
+[2025-12-10 08:01:41] Result row: index=28, default=59998, dc2=46366, diff=-13632, rel%=-22.7208
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_LF_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_LF_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_LF_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_LF_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_LF_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  59035  lev = 54
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 59035
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_LF_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_LF_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_LF_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  45898  lev =140
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 45898
+[2025-12-10 08:01:41] Result row: index=29, default=59035, dc2=45898, diff=-13137, rel%=-22.2529
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  58342  lev =385
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 58342
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_RC_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_RC_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_DT_RC_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  45705  lev =267
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 45705
+[2025-12-10 08:01:41] Result row: index=30, default=58342, dc2=45705, diff=-12637, rel%=-21.6602
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_BK_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_BK_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_BK_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_BK_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_BK_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  60280  lev = 62
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 60280
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_BK_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_BK_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_BK_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_BK_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  47209  lev =173
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 47209
+[2025-12-10 08:01:41] Result row: index=31, default=60280, dc2=47209, diff=-13071, rel%=-21.6838
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_HCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_HCA_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_HCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_HCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_HCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  60817  lev = 57
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 60817
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_HCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_HCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_HCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_HCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  47325  lev =145
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 47325
+[2025-12-10 08:01:41] Result row: index=32, default=60817, dc2=47325, diff=-13492, rel%=-22.1846
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_JCA_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_JCA_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_JCA_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_JCA_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_JCA_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  60778  lev = 55
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 60778
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_JCA_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_JCA_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_JCA_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_JCA_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  47363  lev =112
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 47363
+[2025-12-10 08:01:41] Result row: index=33, default=60778, dc2=47363, diff=-13415, rel%=-22.0721
+[2025-12-10 08:01:41] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_KS_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_KS_Multgen_default.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_KS_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:41] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_KS_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_KS_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  61690  lev = 55
+[2025-12-10 08:01:41] --- ABC OUTPUT END ---
+[2025-12-10 08:01:41] ---- END ABC (OK) ----
+[2025-12-10 08:01:41] Parsed AND: 61690
+[2025-12-10 08:01:41] ---- BEGIN ABC ----
+[2025-12-10 08:01:41] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_KS_Multgen_dc2.aig
+[2025-12-10 08:01:41] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_KS_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_KS_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_KS_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  47717  lev =144
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 47717
+[2025-12-10 08:01:42] Result row: index=34, default=61690, dc2=47717, diff=-13973, rel%=-22.6503
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_LF_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_LF_Multgen_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_LF_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_LF_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_LF_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  60778  lev = 55
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 60778
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_LF_Multgen_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_LF_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_LF_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_LF_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  47363  lev =112
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 47363
+[2025-12-10 08:01:42] Result row: index=35, default=60778, dc2=47363, diff=-13415, rel%=-22.0721
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default:[0m i/o =  128/  128  lat =    0  and =  60194  lev =381
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 60194
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_RC_Multgen_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_RC_Multgen_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_RC_Multgen_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U2_WT_RC_Multgen_dc2:[0m i/o =  128/  128  lat =    0  and =  47104  lev =264
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 47104
+[2025-12-10 08:01:42] Result row: index=36, default=60194, dc2=47104, diff=-13090, rel%=-21.7464
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48032  lev =630
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 48032
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  35990  lev =627
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 35990
+[2025-12-10 08:01:42] Result row: index=37, default=48032, dc2=35990, diff=-12042, rel%=-25.0708
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CK_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CK_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48072  lev =641
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 48072
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CK_GenMul_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36080  lev =627
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 36080
+[2025-12-10 08:01:42] Result row: index=38, default=48072, dc2=36080, diff=-11992, rel%=-24.9459
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CL_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CL_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CL_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CL_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CL_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_CL_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  53549  lev =749
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 53549
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CL_GenMul_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CL_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CL_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_CL_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  35988  lev =627
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 35988
+[2025-12-10 08:01:42] Result row: index=39, default=53549, dc2=35988, diff=-17561, rel%=-32.7943
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_KS_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_KS_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_KS_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_KS_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_KS_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_KS_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48635  lev =634
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 48635
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_KS_GenMul_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_KS_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_KS_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_KS_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36112  lev =626
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 36112
+[2025-12-10 08:01:42] Result row: index=40, default=48635, dc2=36112, diff=-12523, rel%=-25.7489
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_LF_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_LF_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_LF_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_LF_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_LF_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_LF_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48248  lev =633
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 48248
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_LF_GenMul_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_LF_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_LF_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_LF_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36025  lev =627
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 36025
+[2025-12-10 08:01:42] Result row: index=41, default=48248, dc2=36025, diff=-12223, rel%=-25.3337
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_RC_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48000  lev =629
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 48000
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_RC_GenMul_dc2.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_RC_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_RC_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_RC_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36030  lev =626
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 36030
+[2025-12-10 08:01:42] Result row: index=42, default=48000, dc2=36030, diff=-11970, rel%=-24.9375
+[2025-12-10 08:01:42] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_SE_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_SE_GenMul_dc2.aig
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_SE_GenMul_default.aig
+[2025-12-10 08:01:42] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_SE_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:42] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_SE_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_SE_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  47876  lev =629
+[2025-12-10 08:01:42] --- ABC OUTPUT END ---
+[2025-12-10 08:01:42] ---- END ABC (OK) ----
+[2025-12-10 08:01:42] Parsed AND: 47876
+[2025-12-10 08:01:42] ---- BEGIN ABC ----
+[2025-12-10 08:01:42] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_SE_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_SE_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_SE_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_SE_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  35968  lev =627
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 35968
+[2025-12-10 08:01:43] Result row: index=43, default=47876, dc2=35968, diff=-11908, rel%=-24.8726
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_BK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_BK_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_BK_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_BK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_BK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_BK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48563  lev = 66
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 48563
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_BK_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_BK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_BK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_BK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  38764  lev =185
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 38764
+[2025-12-10 08:01:43] Result row: index=44, default=48563, dc2=38764, diff=-9799, rel%=-20.1779
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CK_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CK_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48606  lev =397
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 48606
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CK_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  38784  lev =268
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 38784
+[2025-12-10 08:01:43] Result row: index=45, default=48606, dc2=38784, diff=-9822, rel%=-20.2074
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CL_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CL_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CL_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CL_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CL_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_CL_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  68951  lev =265
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 68951
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CL_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CL_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CL_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_CL_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  39100  lev =226
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 39100
+[2025-12-10 08:01:43] Result row: index=46, default=68951, dc2=39100, diff=-29851, rel%=-43.2931
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_KS_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_KS_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_KS_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_KS_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_KS_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_KS_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  50006  lev = 59
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 50006
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_KS_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_KS_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_KS_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_KS_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  39223  lev =136
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 39223
+[2025-12-10 08:01:43] Result row: index=47, default=50006, dc2=39223, diff=-10783, rel%=-21.5634
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_LF_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_LF_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_LF_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_LF_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_LF_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_LF_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  49082  lev = 58
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 49082
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_LF_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_LF_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_LF_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_LF_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  38895  lev =125
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 38895
+[2025-12-10 08:01:43] Result row: index=48, default=49082, dc2=38895, diff=-10187, rel%=-20.7551
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_RC_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48478  lev =381
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 48478
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_RC_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_RC_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_RC_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_RC_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  38674  lev =263
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 38674
+[2025-12-10 08:01:43] Result row: index=49, default=48478, dc2=38674, diff=-9804, rel%=-20.2236
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_SE_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_SE_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_SE_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_SE_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_SE_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_SE_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48242  lev =265
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 48242
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_SE_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_SE_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_SE_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_CWT_SE_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  38560  lev =265
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 38560
+[2025-12-10 08:01:43] Result row: index=50, default=48242, dc2=38560, diff=-9682, rel%=-20.0696
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_BK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_BK_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_BK_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_BK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_BK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_BK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48092  lev = 57
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 48092
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_BK_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_BK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_BK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_BK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36100  lev =174
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 36100
+[2025-12-10 08:01:43] Result row: index=51, default=48092, dc2=36100, diff=-11992, rel%=-24.9355
+[2025-12-10 08:01:43] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CK_GenMul_dc2.aig
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CK_GenMul_default.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:43] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48136  lev =395
+[2025-12-10 08:01:43] --- ABC OUTPUT END ---
+[2025-12-10 08:01:43] ---- END ABC (OK) ----
+[2025-12-10 08:01:43] Parsed AND: 48136
+[2025-12-10 08:01:43] ---- BEGIN ABC ----
+[2025-12-10 08:01:43] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CK_GenMul_dc2.aig
+[2025-12-10 08:01:43] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36149  lev =264
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 36149
+[2025-12-10 08:01:44] Result row: index=52, default=48136, dc2=36149, diff=-11987, rel%=-24.9024
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CL_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CL_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CL_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CL_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CL_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_CL_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  71000  lev =267
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 71000
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CL_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CL_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CL_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_CL_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36476  lev =204
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 36476
+[2025-12-10 08:01:44] Result row: index=53, default=71000, dc2=36476, diff=-34524, rel%=-48.6254
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_KS_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_KS_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_KS_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_KS_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_KS_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_KS_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  49640  lev = 51
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 49640
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_KS_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_KS_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_KS_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_KS_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36740  lev =111
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 36740
+[2025-12-10 08:01:44] Result row: index=54, default=49640, dc2=36740, diff=-12900, rel%=-25.9871
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_LF_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_LF_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_LF_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_LF_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_LF_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_LF_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48680  lev = 51
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 48680
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_LF_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_LF_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_LF_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_LF_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36235  lev =136
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 36235
+[2025-12-10 08:01:44] Result row: index=55, default=48680, dc2=36235, diff=-12445, rel%=-25.5649
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_RC_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_RC_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_RC_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_RC_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_RC_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_RC_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  48000  lev =378
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 48000
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_RC_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_RC_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_RC_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_RC_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  36032  lev =262
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 36032
+[2025-12-10 08:01:44] Result row: index=56, default=48000, dc2=36032, diff=-11968, rel%=-24.9333
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_SE_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_SE_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_SE_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_SE_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_SE_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_DT_SE_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  47750  lev =256
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 47750
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_SE_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_SE_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_SE_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_DT_SE_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  35907  lev =257
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 35907
+[2025-12-10 08:01:44] Result row: index=57, default=47750, dc2=35907, diff=-11843, rel%=-24.8021
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_BK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_BK_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_BK_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_BK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_BK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_BK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  49944  lev = 59
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 49944
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_BK_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_BK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_BK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_BK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37523  lev =163
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 37523
+[2025-12-10 08:01:44] Result row: index=58, default=49944, dc2=37523, diff=-12421, rel%=-24.8699
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CK_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CK_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  49984  lev =392
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 49984
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CK_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CK_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CK_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CK_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37525  lev =266
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 37525
+[2025-12-10 08:01:44] Result row: index=59, default=49984, dc2=37525, diff=-12459, rel%=-24.9260
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CL_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CL_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CL_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CL_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CL_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_CL_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  69291  lev =258
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 69291
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CL_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CL_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CL_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_CL_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37667  lev =224
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 37667
+[2025-12-10 08:01:44] Result row: index=60, default=69291, dc2=37667, diff=-31624, rel%=-45.6394
+[2025-12-10 08:01:44] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_KS_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_KS_GenMul_dc2.aig
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_KS_GenMul_default.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_KS_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:44] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_KS_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_KS_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  51336  lev = 53
+[2025-12-10 08:01:44] --- ABC OUTPUT END ---
+[2025-12-10 08:01:44] ---- END ABC (OK) ----
+[2025-12-10 08:01:44] Parsed AND: 51336
+[2025-12-10 08:01:44] ---- BEGIN ABC ----
+[2025-12-10 08:01:44] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_KS_GenMul_dc2.aig
+[2025-12-10 08:01:44] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_KS_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_KS_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_KS_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37997  lev =146
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 37997
+[2025-12-10 08:01:45] Result row: index=61, default=51336, dc2=37997, diff=-13339, rel%=-25.9837
+[2025-12-10 08:01:45] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_LF_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_LF_GenMul_dc2.aig
+[2025-12-10 08:01:45] ---- BEGIN ABC ----
+[2025-12-10 08:01:45] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_LF_GenMul_default.aig
+[2025-12-10 08:01:45] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_LF_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_LF_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_LF_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  50433  lev = 53
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 50433
+[2025-12-10 08:01:45] ---- BEGIN ABC ----
+[2025-12-10 08:01:45] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_LF_GenMul_dc2.aig
+[2025-12-10 08:01:45] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_LF_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_LF_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_LF_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37627  lev =134
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 37627
+[2025-12-10 08:01:45] Result row: index=62, default=50433, dc2=37627, diff=-12806, rel%=-25.3921
+[2025-12-10 08:01:45] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_RC_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_RC_GenMul_dc2.aig
+[2025-12-10 08:01:45] ---- BEGIN ABC ----
+[2025-12-10 08:01:45] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_RC_GenMul_default.aig
+[2025-12-10 08:01:45] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_RC_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_RC_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_RC_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  49856  lev =376
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 49856
+[2025-12-10 08:01:45] ---- BEGIN ABC ----
+[2025-12-10 08:01:45] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_RC_GenMul_dc2.aig
+[2025-12-10 08:01:45] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_RC_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_RC_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_RC_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37418  lev =261
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 37418
+[2025-12-10 08:01:45] Result row: index=63, default=49856, dc2=37418, diff=-12438, rel%=-24.9478
+[2025-12-10 08:01:45] ---- Pair ----
+Default: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default.aig
+DC2:     /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2.aig
+[2025-12-10 08:01:45] ---- BEGIN ABC ----
+[2025-12-10 08:01:45] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default.aig
+[2025-12-10 08:01:45] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default:[0m i/o =  128/  128  lat =    0  and =  49626  lev =263
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 49626
+[2025-12-10 08:01:45] ---- BEGIN ABC ----
+[2025-12-10 08:01:45] File: /home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2.aig
+[2025-12-10 08:01:45] Cmd:  /home/jovyan/workspace/sat_mul_amulet/exp_tool/abc/abc -c "read_aiger \"/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2.aig\"; ps"
+[2025-12-10 08:01:45] --- ABC OUTPUT START ---
+ABC command line: "read_aiger "/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2.aig"; ps".
+
+[1;37m/home/jovyan/workspace/sat_mul_amulet/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2:[0m i/o =  128/  128  lat =    0  and =  37302  lev =261
+[2025-12-10 08:01:45] --- ABC OUTPUT END ---
+[2025-12-10 08:01:45] ---- END ABC (OK) ----
+[2025-12-10 08:01:45] Parsed AND: 37302
+[2025-12-10 08:01:45] Result row: index=64, default=49626, dc2=37302, diff=-12324, rel%=-24.8338
+[2025-12-10 08:01:45] ===== Finished =====
+Pairs with relative stats: 64 (skipped those with default=0)
+Totals: default=3319966, dc2=2503704, diff=-816262
+Avg abs diff: -12754.093750
+MSE abs diff: 183771145.562500
+Avg rel diff: -0.24252655 (=-24.2527%)
+MSE rel diff: 0.06186412 (=6.1864%)
+Overall ratio dc2/default: 0.75413543
+Overall rel diff: -0.24586457 (=-24.5865%)

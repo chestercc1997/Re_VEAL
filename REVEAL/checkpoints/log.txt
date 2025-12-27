@@ -1,0 +1,121 @@
+Namespace(lmsb='MSB', op='none', task=1, mode='test', root_path_train_lsb='dataset_ml_train_resyn3_U_LSB', root_path_test_lsb='dataset_ml_test_resyn3_U_LSB', root_path_train_lsb1='dataset_ml_train_resyn3_U_LSB1', root_path_test_lsb1='dataset_ml_test_resyn3_U_LSB1', root_path_train_msb='dataset_ml_train_resyn3_U_MSB', root_path_test_msb='dataset_ml_test_resyn3_U_MSB', bits=8, bits_test=64, device=0, log_steps=1, num_layers=4, hidden_channels=256, heads=4, dropout=0.5, weight_decay=5e-05, lr=0.005, epochs=100, batch_size=4096, num_hops=7, runs=1, mapped=0, lda1=5, lda2=1, root_dir='data_ml', directed=False, test_all_bits=False, save_model=False, pretrain=0, num_fc_layer=1, num_n_classes_task0=2, num_n_classes_task1=5, num_n_classes_task2=2, num_n_classes_task3=9, gnn_embedding_dim=128, num_epochs=300, graph_feature_size=4)
+Loading LSB dataset from dataset_ml_train_resyn3_U_LSB
+data Data(num_nodes=262, edge_index=[2, 492], x=[262, 16], y=[1, 4], graph_feature=[1, 4], desName='32_32_U1_4to2_BK_Multgen_resyn3')
+Number of samples in the LSB training dataset: 2048
+data Data(num_nodes=262, edge_index=[2, 492], x=[262, 16], y=[1, 4], graph_feature=[1, 4], desName='32_32_U1_4to2_BK_Multgen_resyn3')
+Loading LSB dataset from dataset_ml_test_resyn3_U_LSB
+LSB Training dataset size: 1365
+LSB Validation dataset size: 683
+LSB Testing dataset size: 192
+Loaded model_lsb.pt
+Loading MSB dataset from dataset_ml_train_resyn3_U_MSB
+data Data(num_nodes=178, edge_index=[2, 218], x=[178, 16], y=[1, 4], graph_feature=[1, 4], desName='32_32_U1_4to2_BK_Multgen_resyn3')
+Updating MSB Dataset:   0%|          | 0/2048 [00:00<?, ?it/s]Updating MSB Dataset:   3%|▎         | 61/2048 [00:00<00:06, 327.33it/s]Updating MSB Dataset:   7%|▋         | 150/2048 [00:00<00:03, 570.37it/s]Updating MSB Dataset:  12%|█▏        | 240/2048 [00:00<00:02, 693.45it/s]Updating MSB Dataset:  15%|█▌        | 317/2048 [00:00<00:03, 446.20it/s]Updating MSB Dataset:  20%|█▉        | 407/2048 [00:00<00:02, 553.75it/s]Updating MSB Dataset:  23%|██▎       | 476/2048 [00:00<00:03, 464.46it/s]Updating MSB Dataset:  28%|██▊       | 566/2048 [00:01<00:02, 561.06it/s]Updating MSB Dataset:  31%|███       | 634/2048 [00:01<00:02, 568.88it/s]Updating MSB Dataset:  34%|███▍      | 699/2048 [00:01<00:03, 448.75it/s]Updating MSB Dataset:  38%|███▊      | 784/2048 [00:01<00:02, 532.33it/s]Updating MSB Dataset:  41%|████▏     | 847/2048 [00:01<00:02, 444.06it/s]Updating MSB Dataset:  45%|████▌     | 928/2048 [00:01<00:02, 520.76it/s]Updating MSB Dataset:  48%|████▊     | 990/2048 [00:02<00:02, 388.39it/s]Updating MSB Dataset:  52%|█████▏    | 1071/2048 [00:02<00:02, 467.48it/s]Updating MSB Dataset:  55%|█████▌    | 1130/2048 [00:02<00:02, 395.63it/s]Updating MSB Dataset:  59%|█████▉    | 1212/2048 [00:02<00:01, 479.01it/s]Updating MSB Dataset:  62%|██████▏   | 1272/2048 [00:02<00:02, 372.02it/s]Updating MSB Dataset:  65%|██████▌   | 1333/2048 [00:02<00:01, 416.15it/s]Updating MSB Dataset:  68%|██████▊   | 1385/2048 [00:03<00:01, 349.45it/s]Updating MSB Dataset:  71%|███████▏  | 1462/2048 [00:03<00:01, 430.66it/s]Updating MSB Dataset:  74%|███████▍  | 1516/2048 [00:03<00:01, 368.56it/s]Updating MSB Dataset:  76%|███████▋  | 1563/2048 [00:03<00:01, 387.80it/s]Updating MSB Dataset:  79%|███████▊  | 1609/2048 [00:03<00:01, 324.80it/s]Updating MSB Dataset:  82%|████████▏ | 1685/2048 [00:03<00:00, 412.46it/s]Updating MSB Dataset:  85%|████████▍ | 1735/2048 [00:03<00:00, 373.39it/s]Updating MSB Dataset:  88%|████████▊ | 1808/2048 [00:04<00:00, 450.06it/s]Updating MSB Dataset:  91%|█████████ | 1861/2048 [00:04<00:00, 389.28it/s]Updating MSB Dataset:  94%|█████████▍| 1924/2048 [00:04<00:00, 342.48it/s]Updating MSB Dataset:  97%|█████████▋| 1995/2048 [00:04<00:00, 412.97it/s]Updating MSB Dataset: 100%|█████████▉| 2044/2048 [00:04<00:00, 322.15it/s]Updating MSB Dataset: 100%|██████████| 2048/2048 [00:04<00:00, 420.27it/s]
+Number of samples in the MSB training dataset: 2048
+Loading MSB dataset from dataset_ml_test_resyn3_U_MSB
+Updating MSB Test Dataset:   0%|          | 0/192 [00:00<?, ?it/s]Updating MSB Test Dataset:  28%|██▊       | 54/192 [00:00<00:00, 189.19it/s]Updating MSB Test Dataset:  51%|█████     | 97/192 [00:00<00:00, 185.46it/s]Updating MSB Test Dataset:  92%|█████████▏| 176/192 [00:00<00:00, 237.23it/s]Updating MSB Test Dataset: 100%|██████████| 192/192 [00:00<00:00, 234.50it/s]
+MSB Training dataset size: 1365
+MSB Validation dataset size: 683
+MSB Testing dataset size: 192
+Data(num_nodes=488, edge_index=[2, 778], x=[488, 16], y=[1, 4], graph_feature=[1, 7], desName='32_32_U1_4to2_HCA_Multgen_resyn3')
+Data(num_nodes=548, edge_index=[2, 804], x=[548, 16], y=[1, 4], graph_feature=[1, 7], desName='53_53_U2_4to2_LF_Multgen_resyn3')
+Data(num_nodes=954, edge_index=[2, 1338], x=[954, 16], y=[1, 4], graph_feature=[1, 7], desName='128_128_U1_4to2_HCA_Multgen_resyn3')
+Loaded model_msb.pt
+Evaluating training data for TASK2...
+Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Accuracy (Top-1): 1.0
+Current totalMSE: 0.0000
+Iteration: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s]Iteration: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
+Evaluating validation data for TASK2...
+Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Accuracy (Top-1): 1.0
+Current totalMSE: 0.0000
+Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.42it/s]Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.24it/s]
+Evaluating testing data for TASK2...
+Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Accuracy (Top-1): 1.0
+Current totalMSE: 0.0000
+Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.72it/s]Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.52it/s]
+Evaluating training data for TASK3...
+Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Accuracy (Top-1): 1.0
+Accuracy (Top-1): 0.9047619047619048
+Accuracy (Top-2): 0.9992673992673993
+Accuracy (Top-3): 1.0
+predArray, actualArray:  [7 4 5 ... 7 4 5] [7 4 8 ... 7 4 8]
+Current totalMSE: 0.8571
+Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.50it/s]Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.26it/s]
+Actual class 8 incorrect prediction distribution: [0. 0. 0. 0. 0. 1. 0. 0. 0.]
+Evaluating validation data for TASK3...
+Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Accuracy (Top-1): 1.0
+Accuracy (Top-1): 0.9092240117130308
+Accuracy (Top-2): 1.0
+Accuracy (Top-3): 1.0
+predArray, actualArray:  [6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7
+ 3 2 6 5 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 8 6 8 0 7 4 5 6 5 0 7
+ 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 5 6
+ 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5
+ 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4
+ 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0
+ 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6
+ 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 5 6 5 0 7
+ 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5
+ 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 3 2 6 5 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5
+ 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1
+ 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 5 6 5 0 7 4 5 6
+ 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1] [6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7
+ 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7
+ 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6
+ 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5
+ 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4
+ 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0
+ 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6
+ 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7
+ 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5
+ 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8
+ 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1
+ 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6
+ 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1]
+Current totalMSE: 0.8170
+Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.52it/s]Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.33it/s]
+Actual class 8 incorrect prediction distribution: [0. 0. 0. 0. 0. 1. 0. 0. 0.]
+Actual class 5 incorrect prediction distribution: [0. 0. 0. 0. 0. 0. 0. 0. 1.]
+Evaluating testing data for TASK3...
+Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Accuracy (Top-1): 1.0
+Accuracy (Top-1): 0.703125
+Accuracy (Top-2): 0.890625
+Accuracy (Top-3): 0.953125
+predArray, actualArray:  [7 4 7 4 7 0 7 4 5 4 5 0 7 4 5 6 5 0 7 7 8 4 8 0 7 4 5 4 5 0 7 4 5 6 5 0 7
+ 3 2 6 6 0 1 7 0 2 4 7 0 1 7 3 2 4 5 0 1 7 0 2 6 5 0 1 7 7 8 4 8 0 7 7 7 4
+ 7 0 7 7 7 4 7 0 7 7 8 7 8 0 7 7 7 4 7 0 7 7 7 4 7 0 7 3 2 6 6 0 1 7 0 2 4
+ 7 0 1 7 3 2 4 7 0 1 7 0 2 4 7 0 1 7 4 5 6 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 4
+ 5 4 5 0 7 4 5 6 5 0 7 4 5 6 5 0 7 3 2 6 6 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1
+ 7 3 2 6 5 0 1] [7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7
+ 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6
+ 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6
+ 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 4 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 4
+ 8 6 5 0 7 4 8 6 5 0 7 4 8 6 5 0 7 3 2 6 5 0 1 7 3 2 6 5 0 1 7 3 2 6 5 0 1
+ 7 3 2 6 5 0 1]
+Current totalMSE: 1.6719
+Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.91it/s]Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.67it/s]
+Actual class 8 incorrect prediction distribution: [0.         0.         0.         0.         0.         0.66666667
+ 0.         0.33333333 0.        ]
+Actual class 6 incorrect prediction distribution: [0.     0.     0.     0.     0.9375 0.     0.     0.0625 0.    ]
+Actual class 5 incorrect prediction distribution: [0.  0.  0.  0.  0.  0.  0.2 0.6 0.2]
+Actual class 4 incorrect prediction distribution: [0. 0. 0. 0. 0. 0. 0. 1. 0.]
+Actual class 3 incorrect prediction distribution: [1. 0. 0. 0. 0. 0. 0. 0. 0.]
+Model 1 Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Model 1 Iteration: 100%|██████████| 1/1 [00:00<00:00,  3.68it/s]Model 1 Iteration: 100%|██████████| 1/1 [00:00<00:00,  3.28it/s]
+Model 2 Iteration:   0%|          | 0/1 [00:00<?, ?it/s]Model 2 Iteration: 100%|██████████| 1/1 [00:00<00:00,  3.32it/s]Model 2 Iteration: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]
+********************
+Final run statistics
+********************
+MSB Test loss per sample: 1.671875
+********************

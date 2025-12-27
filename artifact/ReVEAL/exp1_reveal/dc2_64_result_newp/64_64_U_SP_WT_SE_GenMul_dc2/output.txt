@@ -1,0 +1,46 @@
+创建日志文件: ./dc2_64_result_newp/64_64_U_SP_WT_SE_GenMul_dc2/output.txt
+缺失输出文件: ./cnf_dc2_64/64_64_U_SP_WT_SE_GenMul_dc2/cnf3.cnf
+缺失对应的AIG文件: /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_HCA_GenMul_default.aig
+ABC command line: "miter '/data/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2.aig' '/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default.aig';&get;&fraig -y -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  28.26 %  P =      0  D =      0  F =       0  cst =     1016  cls =   20964  lit =    23198   Time =     0.00 sec
+Sim    1 :  26.75 %  P =      0  D =      0  F =       0  cst =      626  cls =   21106  lit =    21964   Time =     0.00 sec
+Sim    2 :  26.64 %  P =      0  D =      0  F =       0  cst =      586  cls =   21120  lit =    21875   Time =     0.00 sec
+Sim    3 :  26.60 %  P =      0  D =      0  F =       0  cst =      570  cls =   21123  lit =    21839   Time =     0.00 sec
+Sim    4 :  26.56 %  P =      0  D =      0  F =       0  cst =      560  cls =   21121  lit =    21809   Time =     0.00 sec
+cbs: clim =  100 jlim =  100
+SAT    5 : 160.93 %  P =   9322  D =     17  F =       0  cst =      510  cls =   21117  lit =    21651   Time =     0.14 sec
+CO =        1  AND =    69637  Conf =    100  JustMax =   100  
+Unsat calls  18569  (  0.00 %)   Ave conf =      2.0   Time =     0.01 sec (  0.00 %)
+Sat   calls      0  (  0.00 %)   Ave conf =      0.0   Time =     0.00 sec (  0.00 %)
+Undef calls     54  (  0.00 %)   Ave conf =      1.3   Time =     0.00 sec (  0.00 %)
+Total time =     0.00 sec
+max of solved: jscan#            88 rscan            39 prop            94
+max of  undec: jscan#           116 rscan            30 prop           102
+acc of    sat: jscan#             0 rscan             0 prop             0
+acc of  unsat: jscan#        137848 rscan        117052 prop        241929
+acc of  undec: jscan#          5449 rscan           290 prop          3379
+avg of  unsat: jscan#             7 rscan             6 prop            13
+avg of  undec: jscan#           100 rscan             5 prop            62
+SAT calls = 9339:  P = 9322 (0=34 a=4.22 m=1239)  D = 17 (0=4 a=25.38 m=159)  F = 0   Sim = 13  Recyc = 3  Xor = 13.04 %
+SAT solving   =     0.06 sec ( 36.00 %)
+  sat(easy)   =     0.00 sec (  0.10 %)
+  sat         =     0.00 sec (  2.51 %)
+  unsat(easy) =     0.00 sec (  0.16 %)
+  unsat       =     0.05 sec ( 33.22 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.01 sec (  3.93 %)
+Generate pats =     0.07 sec ( 44.41 %)
+Simulation    =     0.01 sec (  8.39 %)
+Refinement    =     0.00 sec (  2.67 %)
+Resim global  =     0.00 sec (  0.71 %)
+Resim local   =     0.00 sec (  1.62 %)
+Other         =     0.01 sec (  6.91 %)
+TOTAL         =     0.15 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 0.20 seconds, total: 0.20 seconds
+parallel: This job finished:
+/usr/bin/time -v ./abc -c "miter '/data/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_WT_SE_GenMul_dc2.aig' '/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_SE_GenMul_default.aig';&get;&fraig -y -v;&ps;time" 2> /tmp/tmp.6UhdWwwv8T
+Total memory usage: 38628 KB
+处理完成，输出文件在: ./dc2_64_result_newp/64_64_U_SP_WT_SE_GenMul_dc2

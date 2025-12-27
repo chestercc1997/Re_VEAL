@@ -1,0 +1,8 @@
+<map id="slicing.h" name="slicing.h">
+<area shape="rect" id="node2" href="$elimination_8h.html" title="contains functions used in the polynomial solver " alt="" coords="145,80,240,107"/>
+<area shape="rect" id="node7" href="$slicing_8cpp.html" title="contains functions slice and order the gates " alt="" coords="264,80,348,107"/>
+<area shape="rect" id="node3" href="$polynomial__solver_8h.html" title="contains the polynomial solving routine " alt="" coords="51,155,188,181"/>
+<area shape="rect" id="node6" href="$elimination_8cpp.html" title="contains functions used in the polynomial solver " alt="" coords="213,155,322,181"/>
+<area shape="rect" id="node4" href="$amulet_8cpp.html" title="main file of our tool AMulet2 " alt="" coords="5,229,92,256"/>
+<area shape="rect" id="node5" href="$polynomial__solver_8cpp.html" title="contains the polynomial solving routine " alt="" coords="116,229,267,256"/>
+</map>

@@ -1,0 +1,17 @@
+Enter the number indicating Partial Product Accumulator (PPA) architecture: 
+1. Array
+2. Wallace tree
+3. Dadda tree
+4. Counter-based Wallace tree
+
+*************************************************************************
+Enter the number indicating Final Stage Adder (FSA) architecture: 
+1. Ripple Carry Adder
+2. Carry Look-Ahead Adder
+3. Lander-Fischer Adder
+4. Kogge-Stone Adder
+5. Brent-Kung Adder
+6. Carry Skip Adder
+7. Serial Prefix Adder
+8 HCA
+9 JCA

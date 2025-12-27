@@ -1,0 +1,42 @@
+******************************************************************************************************************
+*                                                   RevSCA-2.0                                                   *
+*                                                                                                                *
+* Copyright (c) 2020 Group of Computer Architecture. All Rights Reserved.                                        *
+* For more information, please visit http://www.sca-verification.org/ or contact revsca@sca-verification.org.    *
+******************************************************************************************************************
+
+Results Generated at Thu Nov  7 06:38:58 2024
+
+CPU	: Intel(R) Xeon(R) Gold 6418H
+Memory  : 1031224 MB
+
+Multiplier name  :  /data/artifact/AMulet2.0_artifact/128_dc2/128_128_U1_DT_BK_Multgen_dc2.aig
+Multiplier size  :  128*128
+Number system    :  unsigned binary
+Output file name :  /data/artifact/AMulet2.0_artifact/exp2/dc2_128_output/128_128_U1_DT_BK_Multgen_dc2_output.aig
+
+*************************************
+--------------Run-times--------------
+*************************************
+
+Parsing & Reverse engineering : 3.20146
+Detecting cones               : 0.0527357
+Generating cone polynomials   : 0.0328105
+Global backward rewriting     : 119.034
+Overall run-time              : 122.321
+
+*************************************
+----------Verification data----------
+*************************************
+
+#Node       : 146353
+#Atomic     : 16471
+#Cone       : 17018
+#Vanishing  : 4391
+#MaxPoly    : 20635
+
+*************************************
+---------Verification result---------
+*************************************
+
+The multiplier is correct!

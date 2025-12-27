@@ -1,0 +1,37 @@
+var files =
+[
+    [ "aig.cpp", "aig_8cpp.html", "aig_8cpp" ],
+    [ "aig.h", "aig_8h.html", "aig_8h" ],
+    [ "amulet.cpp", "amulet_8cpp.html", "amulet_8cpp" ],
+    [ "elimination.cpp", "elimination_8cpp.html", "elimination_8cpp" ],
+    [ "elimination.h", "elimination_8h.html", "elimination_8h" ],
+    [ "gate.cpp", "gate_8cpp.html", "gate_8cpp" ],
+    [ "gate.h", "gate_8h.html", "gate_8h" ],
+    [ "hash_val.cpp", "hash__val_8cpp.html", "hash__val_8cpp" ],
+    [ "hash_val.h", "hash__val_8h.html", "hash__val_8h" ],
+    [ "monomial.cpp", "monomial_8cpp.html", "monomial_8cpp" ],
+    [ "monomial.h", "monomial_8h.html", "monomial_8h" ],
+    [ "nss.cpp", "nss_8cpp.html", "nss_8cpp" ],
+    [ "nss.h", "nss_8h.html", "nss_8h" ],
+    [ "pac.cpp", "pac_8cpp.html", "pac_8cpp" ],
+    [ "pac.h", "pac_8h.html", "pac_8h" ],
+    [ "parser.cpp", "parser_8cpp.html", "parser_8cpp" ],
+    [ "parser.h", "parser_8h.html", "parser_8h" ],
+    [ "polynomial.cpp", "polynomial_8cpp.html", "polynomial_8cpp" ],
+    [ "polynomial.h", "polynomial_8h.html", "polynomial_8h" ],
+    [ "polynomial_solver.cpp", "polynomial__solver_8cpp.html", "polynomial__solver_8cpp" ],
+    [ "polynomial_solver.h", "polynomial__solver_8h.html", "polynomial__solver_8h" ],
+    [ "signal_statistics.cpp", "signal__statistics_8cpp.html", "signal__statistics_8cpp" ],
+    [ "signal_statistics.h", "signal__statistics_8h.html", "signal__statistics_8h" ],
+    [ "slicing.cpp", "slicing_8cpp.html", "slicing_8cpp" ],
+    [ "slicing.h", "slicing_8h.html", "slicing_8h" ],
+    [ "substitution.cpp", "substitution_8cpp.html", "substitution_8cpp" ],
+    [ "substitution.h", "substitution_8h.html", "substitution_8h" ],
+    [ "substitution_engine.cpp", "substitution__engine_8cpp.html", "substitution__engine_8cpp" ],
+    [ "substitution_engine.h", "substitution__engine_8h.html", "substitution__engine_8h" ],
+    [ "term.cpp", "term_8cpp.html", "term_8cpp" ],
+    [ "term.h", "term_8h.html", "term_8h" ],
+    [ "variable.h", "variable_8h.html", [
+      [ "Var", "classVar.html", "classVar" ]
+    ] ]
+];

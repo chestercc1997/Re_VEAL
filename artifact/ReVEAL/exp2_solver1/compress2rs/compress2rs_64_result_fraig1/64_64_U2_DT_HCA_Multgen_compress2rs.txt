@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_compress2rs/64_64_U2_DT_HCA_Multgen_compress2rs.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  29.83 %  P =      0  D =      0  F =       0  cst =      742  cls =   28587  lit =    29838   Time =     0.00 sec
+Sim    1 :  29.25 %  P =      0  D =      0  F =       0  cst =      545  cls =   28658  lit =    29262   Time =     0.00 sec
+Sim    2 :  29.19 %  P =      0  D =      0  F =       0  cst =      521  cls =   28656  lit =    29198   Time =     0.00 sec
+Sim    3 :  29.18 %  P =      0  D =      0  F =       0  cst =      520  cls =   28655  lit =    29193   Time =     0.00 sec
+Sim    4 :  29.18 %  P =      0  D =      0  F =       0  cst =      519  cls =   28655  lit =    29190   Time =     0.00 sec
+Sim    5 :  29.17 %  P =      0  D =      0  F =       0  cst =      518  cls =   28655  lit =    29186   Time =     0.05 sec
+SAT    6 : 100.00 %  P =  12595  D =     11  F =       0  cst =      514  cls =   28654  lit =    29171   Time =     0.16 sec
+SAT calls = 12606:  P = 12595 (0=2 a=3.91 m=8)  D = 11 (0=5 a=2.33 m=9)  F = 0   Sim = 13  Recyc = 25  Xor = 11.35 %
+SAT solving   =     0.14 sec ( 62.24 %)
+  sat(easy)   =     0.00 sec (  0.10 %)
+  sat         =     0.00 sec (  0.16 %)
+  unsat(easy) =     0.00 sec (  0.00 %)
+  unsat       =     0.14 sec ( 61.97 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.07 sec ( 29.50 %)
+Generate pats =     0.05 sec ( 22.17 %)
+Simulation    =     0.01 sec (  5.36 %)
+Refinement    =     0.00 sec (  1.93 %)
+Resim global  =     0.00 sec (  0.43 %)
+Resim local   =     0.01 sec (  2.72 %)
+Other         =     0.01 sec (  5.59 %)
+TOTAL         =     0.23 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_compress2rs/64_64_U2_DT_HCA_Multgen_compress2rs_/data/artifact/AMulet2.0_artifact/64_default/64_64_U2_DT_RC_Multgen_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 0.31 seconds, total: 0.31 seconds

@@ -1,0 +1,28 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_lazyman/64_64_U_SP_AR_CL_GenMul_lazyman.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  12.18 %  P =      0  D =      0  F =       0  cst =     2078  cls =   15180  lit =    19278   Time =     0.00 sec
+Sim    1 :  11.70 %  P =      0  D =      0  F =       0  cst =     1849  cls =   14841  lit =    18520   Time =     0.01 sec
+Sim    2 :  11.66 %  P =      0  D =      0  F =       0  cst =     1819  cls =   14811  lit =    18443   Time =     0.01 sec
+Sim    3 :  11.61 %  P =      0  D =      0  F =       0  cst =     1784  cls =   14793  lit =    18374   Time =     0.01 sec
+Sim    4 :  11.60 %  P =      0  D =      0  F =       0  cst =     1777  cls =   14784  lit =    18350   Time =     0.01 sec
+Sim    5 :  11.59 %  P =      0  D =      0  F =       0  cst =     1772  cls =   14780  lit =    18337   Time =     0.53 sec
+SAT    6 :  98.06 %  P =  11961  D =    254  F =      10  cst =     1480  cls =   14498  lit =    17418   Time =  3527.10 sec
+SAT    7 : 100.00 %  P =  12256  D =    288  F =      12  cst =     1442  cls =   14460  lit =    17311   Time =   510.95 sec
+SAT calls = 12556:  P = 12256 (0=1250 a=30.85 m=958)  D = 288 (0=1 a=40929.10 m=901968)  F = 12   Sim = 14  Recyc = 25  Xor = 2.53 %
+SAT solving   =  4037.35 sec ( 99.97 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =  3367.02 sec ( 83.37 %)
+  unsat(easy) =     0.32 sec (  0.01 %)
+  unsat       =    29.87 sec (  0.74 %)
+  fail        =   640.13 sec ( 15.85 %)
+Generate CNF  =     5.43 sec (  0.13 %)
+Generate pats =     0.52 sec (  0.01 %)
+Simulation    =     0.05 sec (  0.00 %)
+Refinement    =     0.01 sec (  0.00 %)
+Resim global  =     0.00 sec (  0.00 %)
+Resim local   =     0.66 sec (  0.02 %)
+Other         =     0.05 sec (  0.00 %)
+TOTAL         =  4038.64 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_lazyman/64_64_U_SP_AR_CL_GenMul_lazyman_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 4038.86 seconds, total: 4038.86 seconds

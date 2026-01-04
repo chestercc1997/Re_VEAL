@@ -1,0 +1,18 @@
+&r /data/artifact/AMulet2.0_artifact/exp4/cnf_dc2_64/64_64_U_SP_AR_BK_GenMul_dc2.cnf
+miter /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_BK_GenMul_default.aig /data/artifact/AMulet2.0_artifact/64_dc2/64_64_U_SP_AR_BK_GenMul_dc2.aig
+&get
+&fraig -y
+&fraig -y -v
+ cec mult.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_WT_RC_GenMul_default.aig
+write mult_abc.aig
+cec mult.aig mult1.aig
+ cec mult.aig mult2.aig
+source -s abc.rc
+cec  /data/artifact/AMulet2.0_artifact/exp4/mult.aig /data/artifact/AMulet2.0_artifact/10_def/10_10_U_SP_WT_RC_GenMul.aig 
+cec  /data/artifact/AMulet2.0_artifact/exp4/mult_abc.aig /data/artifact/AMulet2.0_artifact/10_def/10_10_U_SP_WT_RC_GenMul.aig 
+cec  /data/artifact/AMulet2.0_artifact/exp4/mult_abc.aig /data/artifact/AMulet2.0_artifact/10_def/10_10_S_SP_WT_RC_GenMul.aig 
+read mult.aig
+&get;&cone -c -R 5 -O 0
+ read mult.aig
+ &get
+ &cone -c -R 5 -O 0

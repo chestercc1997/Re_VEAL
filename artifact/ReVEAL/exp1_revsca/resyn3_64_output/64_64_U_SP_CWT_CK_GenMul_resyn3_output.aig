@@ -1,0 +1,42 @@
+******************************************************************************************************************
+*                                                   RevSCA-2.0                                                   *
+*                                                                                                                *
+* Copyright (c) 2020 Group of Computer Architecture. All Rights Reserved.                                        *
+* For more information, please visit http://www.sca-verification.org/ or contact revsca@sca-verification.org.    *
+******************************************************************************************************************
+
+Results Generated at Thu Nov  7 00:20:41 2024
+
+CPU	: Intel(R) Xeon(R) Gold 6418H
+Memory  : 1031224 MB
+
+Multiplier name  :  /data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_CWT_CK_GenMul_resyn3.aig
+Multiplier size  :  64*64
+Number system    :  unsigned binary
+Output file name :  /data/artifact/AMulet2.0_artifact/exp2//resyn3_64_output/64_64_U_SP_CWT_CK_GenMul_resyn3_output.aig
+
+*************************************
+--------------Run-times--------------
+*************************************
+
+Parsing & Reverse engineering : 10.3372
+Detecting cones               : 0.0347277
+Generating cone polynomials   : 0.192141
+Global backward rewriting     : 6.83195
+Overall run-time              : 17.3961
+
+*************************************
+----------Verification data----------
+*************************************
+
+#Node       : 40987
+#Atomic     : 7552
+#Cone       : 8074
+#Vanishing  : 66882
+#MaxPoly    : 5336
+
+*************************************
+---------Verification result---------
+*************************************
+
+The multiplier is correct!

@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_compress2rs/64_64_U_SP_AR_CL_GenMul_compress2rs.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  30.56 %  P =      0  D =      0  F =       0  cst =      652  cls =   22875  lit =    23683   Time =     0.00 sec
+Sim    1 :  30.46 %  P =      0  D =      0  F =       0  cst =      617  cls =   22879  lit =    23603   Time =     0.00 sec
+Sim    2 :  30.44 %  P =      0  D =      0  F =       0  cst =      609  cls =   22878  lit =    23584   Time =     0.00 sec
+Sim    3 :  30.41 %  P =      0  D =      0  F =       0  cst =      600  cls =   22871  lit =    23564   Time =     0.00 sec
+Sim    4 :  30.41 %  P =      0  D =      0  F =       0  cst =      600  cls =   22871  lit =    23564   Time =     0.00 sec
+Sim    5 :  30.40 %  P =      0  D =      0  F =       0  cst =      598  cls =   22869  lit =    23556   Time =     0.13 sec
+SAT    6 : 100.00 %  P =   8638  D =    100  F =       0  cst =      503  cls =   22733  lit =    23258   Time =   288.37 sec
+SAT calls = 8738:  P = 8638 (0=3 a=4.18 m=57)  D = 100 (0=5 a=24639.21 m=360761)  F = 0   Sim = 13  Recyc = 17  Xor = 5.25 %
+SAT solving   =   288.29 sec ( 99.92 %)
+  sat(easy)   =     0.03 sec (  0.01 %)
+  sat         =   287.27 sec ( 99.57 %)
+  unsat(easy) =     0.00 sec (  0.00 %)
+  unsat       =     0.99 sec (  0.34 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.40 sec (  0.14 %)
+Generate pats =     0.13 sec (  0.04 %)
+Simulation    =     0.01 sec (  0.00 %)
+Refinement    =     0.00 sec (  0.00 %)
+Resim global  =     0.00 sec (  0.00 %)
+Resim local   =     0.07 sec (  0.03 %)
+Other         =     0.01 sec (  0.00 %)
+TOTAL         =   288.51 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_compress2rs/64_64_U_SP_AR_CL_GenMul_compress2rs_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 288.57 seconds, total: 288.57 seconds

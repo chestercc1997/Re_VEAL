@@ -1,0 +1,85 @@
+[amulet2] AMulet Version 2.2
+[amulet2] Aiger multiplier examination tool
+[amulet2] Copyright(C) 2020, 2021, Daniela Kaufmann, Johannes Kepler University Linz
+[amulet2] selected mode: verification
+[amulet2] reading '/data/artifact/AMulet2.0_artifact/128_dc2/128_128_U_SP_WT_KS_GenMul_dc2.aig'
+[amulet2] MILOA 150843 256 0 256 150587
+[amulet2] assuming ordering as in the ABC generated or AOKI benchmarks
+[amulet2] allocating 151099 gates
+[amulet2] found 16383 partial products
+[amulet2] assuming booth recoding
+[amulet2] found 31932 xor-gates
+[amulet2] marking xor chain gates
+[amulet2] marked 5 xor gates in last slice
+[amulet2] remove internal xor gates
+[amulet2] removed 31320 internal xor gates
+[amulet2] slicing based on xor
+[amulet2] remove single occurence gates
+[amulet2] removed 34438 single occurence gates
+[amulet2] insert l301288 after l301298
+[amulet2] insert l301134 after l301148
+[amulet2] insert l301132 after l301134
+[amulet2] insert l301254 after l301258
+[amulet2] insert l301248 after l301250
+[amulet2] insert l301376 after l301378
+[amulet2] insert l301242 after l301244
+[amulet2] insert l301366 after l301496
+[amulet2] insert l301486 after l301496
+[amulet2] insert l301370 after l301372
+[amulet2] insert l301236 after l301238
+[amulet2] insert l301484 after l301486
+[amulet2] insert l301364 after l301370
+[amulet2] insert l301230 after l301232
+[amulet2] insert l301354 after l301478
+[amulet2] insert l301358 after l301360
+[amulet2] insert l301224 after l301226
+[amulet2] insert l301352 after l301358
+[amulet2] insert l301476 after l301546
+[amulet2] insert l301218 after l301220
+[amulet2] insert l301208 after l301346
+[amulet2] insert l301574 after l301582
+[amulet2] insert l301212 after l301214
+[amulet2] insert l301570 after l301574
+[amulet2] insert l301464 after l301470
+[amulet2] insert l301344 after l301424
+[amulet2] insert l301202 after l301212
+[amulet2] insert l301178 after l301202
+[amulet2] insert l301194 after l301198
+[amulet2] insert l301458 after l301460
+[amulet2] insert l301560 after l301570
+[amulet2] insert l301562 after l301570
+[amulet2] insert l301336 after l301340
+[amulet2] insert l300966 after l300980
+[amulet2] insert l300964 after l300966
+[amulet2] insert l300928 after l300942
+[amulet2] insert l300926 after l300928
+[amulet2] insert l300586 after l300598
+[amulet2] insert l300584 after l300586
+[amulet2] insert l300562 after l300566
+[amulet2] insert l300558 after l300562
+[amulet2] insert l300556 after l300558
+[amulet2] insert l300150 after l300158
+[amulet2] insert l300146 after l300150
+[amulet2] insert l300144 after l300146
+[amulet2] insert l300114 after l300124
+[amulet2] insert l300110 after l300114
+[amulet2] insert l300108 after l300110
+[amulet2] insert l300086 after l300090
+[amulet2] insert l300080 after l300082
+[amulet2] insert l300346 after l300352
+[amulet2] insert l300074 after l300076
+[amulet2] insert l300060 after l300346
+[amulet2] insert l300338 after l300346
+[amulet2] slicing based on input cones
+[amulet2] totally merged 35718 variable(s)
+[amulet2] totally promoted 2663 variable(s)
+[amulet2] filled 256 slices
+[amulet2] eliminate single occs
+[amulet2] decomposed 338 variables
+[amulet2] 
+[amulet2] 
+[amulet2] started reducing
+[amulet2] reducing by slice 255
+[amulet2] reducing by slice 254
+[amulet2] reducing by slice 253
+[amulet2] reducing by slice 252

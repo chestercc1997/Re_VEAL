@@ -1,0 +1,4 @@
+source -s abc.rc
+read_aig i10.aig
+rea i10.aig
+read i10.aig

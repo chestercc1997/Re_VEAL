@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['factors_5fper_5fslice',['factors_per_slice',['../elimination_8cpp.html#af0267fc241a77b79813be8bfb953d63f',1,'elimination.cpp']]],
+  ['fill_5foriginal_5foutputs',['fill_original_outputs',['../substitution_8cpp.html#af96bdcdaf822b01f36289b3ebf54f31b',1,'fill_original_outputs():&#160;substitution.cpp'],['../substitution_8h.html#af96bdcdaf822b01f36289b3ebf54f31b',1,'fill_original_outputs():&#160;substitution.cpp']]],
+  ['fill_5fslices',['fill_slices',['../slicing_8cpp.html#ae8b0f1600f56bab1fc58612aaf6dc1d0',1,'fill_slices():&#160;slicing.cpp'],['../slicing_8h.html#ae8b0f1600f56bab1fc58612aaf6dc1d0',1,'fill_slices():&#160;slicing.cpp']]],
+  ['find_5fcarries',['find_carries',['../slicing_8cpp.html#a181ce041e489ac7a57583af588eeadbf',1,'find_carries():&#160;slicing.cpp'],['../slicing_8h.html#a181ce041e489ac7a57583af588eeadbf',1,'find_carries():&#160;slicing.cpp']]],
+  ['fix_5finputs',['fix_inputs',['../substitution_8cpp.html#ade7a208f5f39b6b3a59fbcd140853167',1,'fix_inputs():&#160;substitution.cpp'],['../substitution_8h.html#ade7a208f5f39b6b3a59fbcd140853167',1,'fix_inputs():&#160;substitution.cpp']]],
+  ['fix_5fjut_5fgates',['fix_jut_gates',['../slicing_8cpp.html#a1d8b79ecfbc5ed63575f1d45301d0afb',1,'fix_jut_gates():&#160;slicing.cpp'],['../slicing_8h.html#a1d8b79ecfbc5ed63575f1d45301d0afb',1,'fix_jut_gates():&#160;slicing.cpp']]],
+  ['fix_5fslice',['fix_slice',['../slicing_8cpp.html#a536fd606a6bfd1f65b6e0b91077c838b',1,'fix_slice(Gate *n, int i):&#160;slicing.cpp'],['../slicing_8h.html#a536fd606a6bfd1f65b6e0b91077c838b',1,'fix_slice(Gate *n, int i):&#160;slicing.cpp']]],
+  ['fix_5fxors',['fix_xors',['../slicing_8cpp.html#a4d6220292f352bcd4f14afbc001325e4',1,'fix_xors():&#160;slicing.cpp'],['../slicing_8h.html#a4d6220292f352bcd4f14afbc001325e4',1,'fix_xors():&#160;slicing.cpp']]],
+  ['follow_5fall_5foutput_5fpaths_5fand_5fmark_5fgates',['follow_all_output_paths_and_mark_gates',['../substitution_8cpp.html#a4da51c9b7c9e24c321264d715b59854c',1,'follow_all_output_paths_and_mark_gates():&#160;substitution.cpp'],['../substitution_8h.html#a4da51c9b7c9e24c321264d715b59854c',1,'follow_all_output_paths_and_mark_gates():&#160;substitution.cpp']]],
+  ['follow_5fpath_5fand_5fmark_5fgates',['follow_path_and_mark_gates',['../substitution_8cpp.html#af97b0f1b26aa9f8b6dd7eb2c426d9d02',1,'follow_path_and_mark_gates(Gate *n, bool init):&#160;substitution.cpp'],['../substitution_8h.html#ab3016f1e650a33e0c96f9b716f69a415',1,'follow_path_and_mark_gates(Gate *n, bool init=0):&#160;substitution.cpp']]],
+  ['fsa',['fsa',['../classGate.html#ad17fd02af013888810055f0455084ef6',1,'Gate']]],
+  ['fsa_5finp',['fsa_inp',['../classGate.html#a46a372ea74aa146b2b8e1d9e9bf50479',1,'Gate']]]
+];

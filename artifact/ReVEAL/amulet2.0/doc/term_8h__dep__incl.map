@@ -1,0 +1,24 @@
+<map id="term.h" name="term.h">
+<area shape="rect" id="node2" href="$monomial_8h.html" title="contains the class Monomial and further functions to manipulate monomials " alt="" coords="524,80,613,107"/>
+<area shape="rect" id="node23" href="$term_8cpp.html" title="contains the class Term and further functions to manipulate terms " alt="" coords="637,80,711,107"/>
+<area shape="rect" id="node3" href="$polynomial_8h.html" title="contains arithmetic operations for polynomials " alt="" coords="460,155,555,181"/>
+<area shape="rect" id="node22" href="$monomial_8cpp.html" title="contains the class Monomial and further functions to manipulate monomials " alt="" coords="579,155,681,181"/>
+<area shape="rect" id="node4" href="$gate_8h.html" title="contains the class Gate and further functions to organize the gate structure, such as initializing th..." alt="" coords="425,229,483,256"/>
+<area shape="rect" id="node21" href="$polynomial_8cpp.html" title="contains arithmetic operations for polynomials " alt="" coords="507,229,617,256"/>
+<area shape="rect" id="node5" href="$substitution_8h.html" title="substitution.h" alt="" coords="183,304,283,331"/>
+<area shape="rect" id="node10" href="$nss_8h.html" title="contains functions necessary to generate Nullstellensatz proofs " alt="" coords="348,304,403,331"/>
+<area shape="rect" id="node16" href="$pac_8h.html" title="contains functions necessary to generate PAC proofs " alt="" coords="427,304,481,331"/>
+<area shape="rect" id="node18" href="$slicing_8h.html" title="contains functions slice and order the gates " alt="" coords="505,304,576,331"/>
+<area shape="rect" id="node20" href="$gate_8cpp.html" title="contains the class Gate and further functions to organize the gate structure, such as initializing th..." alt="" coords="601,304,673,331"/>
+<area shape="rect" id="node6" href="$substitution__engine_8h.html" title="contains the substitution engine " alt="" coords="5,379,151,405"/>
+<area shape="rect" id="node9" href="$substitution_8cpp.html" title="contains function to apply adder substitution " alt="" coords="175,379,290,405"/>
+<area shape="rect" id="node7" href="$amulet_8cpp.html" title="main file of our tool AMulet2 " alt="" coords="77,528,164,555"/>
+<area shape="rect" id="node8" href="$substitution__engine_8cpp.html" title="contains the substitution engine " alt="" coords="85,453,244,480"/>
+<area shape="rect" id="node11" href="$elimination_8h.html" title="contains functions used in the polynomial solver " alt="" coords="407,379,501,405"/>
+<area shape="rect" id="node15" href="$nss_8cpp.html" title="contains functions necessary to generate Nullstellensatz proofs " alt="" coords="315,379,383,405"/>
+<area shape="rect" id="node12" href="$polynomial__solver_8h.html" title="contains the polynomial solving routine " alt="" coords="268,453,405,480"/>
+<area shape="rect" id="node14" href="$elimination_8cpp.html" title="contains functions used in the polynomial solver " alt="" coords="430,453,539,480"/>
+<area shape="rect" id="node13" href="$polynomial__solver_8cpp.html" title="contains the polynomial solving routine " alt="" coords="261,528,412,555"/>
+<area shape="rect" id="node17" href="$pac_8cpp.html" title="contains functions necessary to generate PAC proofs " alt="" coords="525,379,593,405"/>
+<area shape="rect" id="node19" href="$slicing_8cpp.html" title="contains functions slice and order the gates " alt="" coords="617,379,701,405"/>
+</map>

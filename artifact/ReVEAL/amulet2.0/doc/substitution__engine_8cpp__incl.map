@@ -1,0 +1,12 @@
+<map id="substitution_engine.cpp" name="substitution_engine.cpp">
+<area shape="rect" id="node2" href="$substitution__engine_8h.html" title="contains the substitution engine " alt="" coords="93,80,238,107"/>
+<area shape="rect" id="node3" href="$substitution_8h.html" title="substitution.h" alt="" coords="115,155,215,181"/>
+<area shape="rect" id="node5" href="$gate_8h.html" title="contains the class Gate and further functions to organize the gate structure, such as initializing th..." alt="" coords="177,229,236,256"/>
+<area shape="rect" id="node8" href="$aig_8h.html" title="contains functions to parse and manipulate the input AIG " alt="" coords="220,304,271,331"/>
+<area shape="rect" id="node17" href="$polynomial_8h.html" title="contains arithmetic operations for polynomials " alt="" coords="451,304,546,331"/>
+<area shape="rect" id="node10" href="$signal__statistics_8h.html" title="used to handle signals, messages and statistics " alt="" coords="106,379,233,405"/>
+<area shape="rect" id="node21" href="$monomial_8h.html" title="contains the class Monomial and further functions to manipulate monomials " alt="" coords="638,379,727,405"/>
+<area shape="rect" id="node23" href="$term_8h.html" title="contains the class Term and further functions to manipulate terms " alt="" coords="653,453,712,480"/>
+<area shape="rect" id="node25" href="$variable_8h.html" title="contains the class Var " alt="" coords="643,528,722,555"/>
+<area shape="rect" id="node26" href="$hash__val_8h.html" title="contains functions used to compute hash values for variables " alt="" coords="492,603,577,629"/>
+</map>

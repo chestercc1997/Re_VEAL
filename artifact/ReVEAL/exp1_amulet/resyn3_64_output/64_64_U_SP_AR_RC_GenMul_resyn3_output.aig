@@ -1,0 +1,161 @@
+[amulet2] AMulet Version 2.2
+[amulet2] Aiger multiplier examination tool
+[amulet2] Copyright(C) 2020, 2021, Daniela Kaufmann, Johannes Kepler University Linz
+[amulet2] selected mode: verification
+[amulet2] reading '/data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_AR_RC_GenMul_resyn3.aig'
+[amulet2] MILOA 47990 128 0 128 47862
+[amulet2] assuming ordering as in the ABC generated or AOKI benchmarks
+[amulet2] allocating 48118 gates
+[amulet2] found 4096 partial products
+[amulet2] assuming simple pp generator
+[amulet2] found 8000 xor-gates
+[amulet2] marking xor chain gates
+[amulet2] marked 0 xor gates in last slice
+[amulet2] remove internal xor gates
+[amulet2] removed 15934 internal xor gates
+[amulet2] slicing based on xor
+[amulet2] remove single occurence gates
+[amulet2] removed 19699 single occurence gates
+[amulet2] moved 0 gates to smaller slices
+[amulet2] remove gates that are not assigned to slices
+[amulet2] removed 4095 gates that are not assigned to slices
+[amulet2] 
+[amulet2] 
+[amulet2] started reducing
+[amulet2] reducing by slice 127
+[amulet2] reducing by slice 126
+[amulet2] reducing by slice 125
+[amulet2] reducing by slice 124
+[amulet2] reducing by slice 123
+[amulet2] reducing by slice 122
+[amulet2] reducing by slice 121
+[amulet2] reducing by slice 120
+[amulet2] reducing by slice 119
+[amulet2] reducing by slice 118
+[amulet2] reducing by slice 117
+[amulet2] reducing by slice 116
+[amulet2] reducing by slice 115
+[amulet2] reducing by slice 114
+[amulet2] reducing by slice 113
+[amulet2] reducing by slice 112
+[amulet2] reducing by slice 111
+[amulet2] reducing by slice 110
+[amulet2] reducing by slice 109
+[amulet2] reducing by slice 108
+[amulet2] reducing by slice 107
+[amulet2] reducing by slice 106
+[amulet2] reducing by slice 105
+[amulet2] reducing by slice 104
+[amulet2] reducing by slice 103
+[amulet2] reducing by slice 102
+[amulet2] reducing by slice 101
+[amulet2] reducing by slice 100
+[amulet2] reducing by slice 99
+[amulet2] reducing by slice 98
+[amulet2] reducing by slice 97
+[amulet2] reducing by slice 96
+[amulet2] reducing by slice 95
+[amulet2] reducing by slice 94
+[amulet2] reducing by slice 93
+[amulet2] reducing by slice 92
+[amulet2] reducing by slice 91
+[amulet2] reducing by slice 90
+[amulet2] reducing by slice 89
+[amulet2] reducing by slice 88
+[amulet2] reducing by slice 87
+[amulet2] reducing by slice 86
+[amulet2] reducing by slice 85
+[amulet2] reducing by slice 84
+[amulet2] reducing by slice 83
+[amulet2] reducing by slice 82
+[amulet2] reducing by slice 81
+[amulet2] reducing by slice 80
+[amulet2] reducing by slice 79
+[amulet2] reducing by slice 78
+[amulet2] reducing by slice 77
+[amulet2] reducing by slice 76
+[amulet2] reducing by slice 75
+[amulet2] reducing by slice 74
+[amulet2] reducing by slice 73
+[amulet2] reducing by slice 72
+[amulet2] reducing by slice 71
+[amulet2] reducing by slice 70
+[amulet2] reducing by slice 69
+[amulet2] reducing by slice 68
+[amulet2] reducing by slice 67
+[amulet2] reducing by slice 66
+[amulet2] reducing by slice 65
+[amulet2] reducing by slice 64
+[amulet2] reducing by slice 63
+[amulet2] reducing by slice 62
+[amulet2] reducing by slice 61
+[amulet2] reducing by slice 60
+[amulet2] reducing by slice 59
+[amulet2] reducing by slice 58
+[amulet2] reducing by slice 57
+[amulet2] reducing by slice 56
+[amulet2] reducing by slice 55
+[amulet2] reducing by slice 54
+[amulet2] reducing by slice 53
+[amulet2] reducing by slice 52
+[amulet2] reducing by slice 51
+[amulet2] reducing by slice 50
+[amulet2] reducing by slice 49
+[amulet2] reducing by slice 48
+[amulet2] reducing by slice 47
+[amulet2] reducing by slice 46
+[amulet2] reducing by slice 45
+[amulet2] reducing by slice 44
+[amulet2] reducing by slice 43
+[amulet2] reducing by slice 42
+[amulet2] reducing by slice 41
+[amulet2] reducing by slice 40
+[amulet2] reducing by slice 39
+[amulet2] reducing by slice 38
+[amulet2] reducing by slice 37
+[amulet2] reducing by slice 36
+[amulet2] reducing by slice 35
+[amulet2] reducing by slice 34
+[amulet2] reducing by slice 33
+[amulet2] reducing by slice 32
+[amulet2] reducing by slice 31
+[amulet2] reducing by slice 30
+[amulet2] reducing by slice 29
+[amulet2] reducing by slice 28
+[amulet2] reducing by slice 27
+[amulet2] reducing by slice 26
+[amulet2] reducing by slice 25
+[amulet2] reducing by slice 24
+[amulet2] reducing by slice 23
+[amulet2] reducing by slice 22
+[amulet2] reducing by slice 21
+[amulet2] reducing by slice 20
+[amulet2] reducing by slice 19
+[amulet2] reducing by slice 18
+[amulet2] reducing by slice 17
+[amulet2] reducing by slice 16
+[amulet2] reducing by slice 15
+[amulet2] reducing by slice 14
+[amulet2] reducing by slice 13
+[amulet2] reducing by slice 12
+[amulet2] reducing by slice 11
+[amulet2] reducing by slice 10
+[amulet2] reducing by slice 9
+[amulet2] reducing by slice 8
+[amulet2] reducing by slice 7
+[amulet2] reducing by slice 6
+[amulet2] reducing by slice 5
+[amulet2] reducing by slice 4
+[amulet2] reducing by slice 3
+[amulet2] reducing by slice 2
+[amulet2] reducing by slice 1
+[amulet2] reducing by slice 0
+[amulet2] 
+[amulet2] CORRECT MULTIPLIER
+[amulet2] 
+[amulet2] maximum resident set size:                      31.52 MB
+[amulet2] used time for initializing:                      0.02 seconds
+[amulet2] used time for slicing/elimination:               0.16 seconds
+[amulet2] used time for reduction:                         0.02 seconds
+[amulet2] used time for freeing memory:                    0.01 seconds
+[amulet2] total process time:                              0.22 seconds

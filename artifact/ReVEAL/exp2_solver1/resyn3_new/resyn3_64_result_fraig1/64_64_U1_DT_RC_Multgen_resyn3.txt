@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U1_DT_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  34.12 %  P =      0  D =      0  F =       0  cst =      783  cls =   23091  lit =    24667   Time =     0.00 sec
+Sim    1 :  33.27 %  P =      0  D =      0  F =       0  cst =      539  cls =   23427  lit =    24059   Time =     0.00 sec
+Sim    2 :  33.22 %  P =      0  D =      0  F =       0  cst =      522  cls =   23451  lit =    24021   Time =     0.00 sec
+Sim    3 :  33.21 %  P =      0  D =      0  F =       0  cst =      516  cls =   23458  lit =    24010   Time =     0.00 sec
+Sim    4 :  33.20 %  P =      0  D =      0  F =       0  cst =      516  cls =   23460  lit =    24008   Time =     0.00 sec
+Sim    5 :  33.17 %  P =      0  D =     26  F =       0  cst =      499  cls =   23482  lit =    23983   Time =     0.23 sec
+SAT    6 : 100.00 %  P =   3970  D =      1  F =       0  cst =      499  cls =   23482  lit =    23982   Time =     0.30 sec
+SAT calls = 3971:  P = 3970 (0=1 a=3.00 m=2)  D = 1 (0=0 a=1645.00 m=1645)  F = 0   Sim = 14  Recyc = 7  Xor = 3.29 %
+SAT solving   =     0.29 sec ( 52.85 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =     0.22 sec ( 41.46 %)
+  unsat(easy) =     0.00 sec (  0.03 %)
+  unsat       =     0.06 sec ( 11.35 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.04 sec (  7.34 %)
+Generate pats =     0.23 sec ( 42.31 %)
+Simulation    =     0.01 sec (  1.95 %)
+Refinement    =     0.00 sec (  0.57 %)
+Resim global  =     0.00 sec (  0.16 %)
+Resim local   =     0.00 sec (  0.55 %)
+Other         =     0.01 sec (  1.77 %)
+TOTAL         =     0.54 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U1_DT_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/64_default/64_64_U1_DT_RC_Multgen_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 0.60 seconds, total: 0.60 seconds

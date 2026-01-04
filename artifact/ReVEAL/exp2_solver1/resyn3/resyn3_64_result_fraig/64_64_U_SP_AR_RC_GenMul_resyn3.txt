@@ -1,0 +1,39 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_AR_RC_GenMul_resyn3.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig;&get;&fraig -y -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  47.82 %  P =      0  D =      0  F =       0  cst =      499  cls =   43514  lit =    44141   Time =     0.00 sec
+Sim    1 :  47.81 %  P =      0  D =      0  F =       0  cst =      499  cls =   43515  lit =    44137   Time =     0.00 sec
+Sim    2 :  47.81 %  P =      0  D =      0  F =       0  cst =      499  cls =   43515  lit =    44137   Time =     0.00 sec
+Sim    3 :  47.81 %  P =      0  D =      0  F =       0  cst =      499  cls =   43515  lit =    44137   Time =     0.00 sec
+Sim    4 :  47.81 %  P =      0  D =      0  F =       0  cst =      499  cls =   43515  lit =    44137   Time =     0.00 sec
+cbs: clim =  100 jlim =  100
+SAT    5 : 127.02 %  P =    312  D =     56  F =       0  cst =      499  cls =   43515  lit =    44079   Time =     0.68 sec
+CO =        1  AND =    48417  Conf =    100  JustMax =   100  
+Unsat calls    449  (  0.00 %)   Ave conf =      0.5   Time =     0.00 sec (  0.00 %)
+Sat   calls      0  (  0.00 %)   Ave conf =      0.0   Time =     0.00 sec (  0.00 %)
+Undef calls    171  (  0.00 %)   Ave conf =      6.4   Time =     0.00 sec (  0.00 %)
+Total time =     0.00 sec
+max of solved: jscan#            24 rscan            32 prop            89
+max of  undec: jscan#           104 rscan            30 prop           102
+acc of    sat: jscan#             0 rscan             0 prop             0
+acc of  unsat: jscan#           748 rscan           562 prop          3808
+acc of  undec: jscan#          6658 rscan          2835 prop         17330
+avg of  unsat: jscan#             1 rscan             1 prop             8
+avg of  undec: jscan#            38 rscan            16 prop           101
+SAT calls = 368:  P = 312 (0=124 a=3.54 m=152)  D = 56 (0=26 a=56.07 m=118)  F = 0   Sim = 13  Recyc = 1  Xor = 10.24 %
+SAT solving   =     0.26 sec ( 37.35 %)
+  sat(easy)   =     0.03 sec (  4.74 %)
+  sat         =     0.22 sec ( 31.71 %)
+  unsat(easy) =     0.00 sec (  0.01 %)
+  unsat       =     0.01 sec (  0.89 %)
+  fail        =     0.00 sec (  0.00 %)
+Generate CNF  =     0.02 sec (  2.42 %)
+Generate pats =     0.40 sec ( 57.67 %)
+Simulation    =     0.01 sec (  1.48 %)
+Refinement    =     0.00 sec (  0.39 %)
+Resim global  =     0.00 sec (  0.12 %)
+Resim local   =     0.01 sec (  1.56 %)
+Other         =     0.01 sec (  1.55 %)
+TOTAL         =     0.69 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_resyn3/64_64_U_SP_AR_RC_GenMul_resyn3_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 0.77 seconds, total: 0.77 seconds

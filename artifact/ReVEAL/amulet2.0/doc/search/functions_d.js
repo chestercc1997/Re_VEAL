@@ -1,0 +1,16 @@
+var searchData=
+[
+  ['rand16',['rand16',['../hash__val_8cpp.html#a24b5627f969b58fcb1e9b69624c0917c',1,'rand16():&#160;hash_val.cpp'],['../hash__val_8h.html#a24b5627f969b58fcb1e9b69624c0917c',1,'rand16():&#160;hash_val.cpp']]],
+  ['rand64',['rand64',['../hash__val_8cpp.html#a3416a50aa0842c9afac6e72867b6fcb3',1,'rand64():&#160;hash_val.cpp'],['../hash__val_8h.html#a3416a50aa0842c9afac6e72867b6fcb3',1,'rand64():&#160;hash_val.cpp']]],
+  ['reduce',['reduce',['../elimination_8cpp.html#a5c4e20150a4e1f9ac585944e2487924a',1,'reduce(FILE *file):&#160;elimination.cpp'],['../elimination_8h.html#a5c4e20150a4e1f9ac585944e2487924a',1,'reduce(FILE *file):&#160;elimination.cpp']]],
+  ['reduce_5fby_5fone_5fpoly',['reduce_by_one_poly',['../elimination_8cpp.html#a4a8f556525ee991a2434b1773a528d1d',1,'reduce_by_one_poly(const Polynomial *p1, Gate *n, FILE *file):&#160;elimination.cpp'],['../elimination_8h.html#a4a8f556525ee991a2434b1773a528d1d',1,'reduce_by_one_poly(const Polynomial *p1, Gate *n, FILE *file):&#160;elimination.cpp']]],
+  ['remainder',['remainder',['../term_8cpp.html#a28be30b55763bb4b945e28b8ed28bc42',1,'remainder(const Term *t, const Var *v):&#160;term.cpp'],['../term_8h.html#a28be30b55763bb4b945e28b8ed28bc42',1,'remainder(const Term *t, const Var *v):&#160;term.cpp']]],
+  ['remove_5finternal_5fxor_5fgates',['remove_internal_xor_gates',['../elimination_8cpp.html#a1594e6ca324394109463f3b0a4415e44',1,'remove_internal_xor_gates(FILE *file):&#160;elimination.cpp'],['../elimination_8h.html#a1594e6ca324394109463f3b0a4415e44',1,'remove_internal_xor_gates(FILE *file):&#160;elimination.cpp']]],
+  ['remove_5fsingle_5foccs_5fgates',['remove_single_occs_gates',['../elimination_8cpp.html#a3c1d3473ee29d6686f9c7f079192ab0e',1,'remove_single_occs_gates(FILE *file):&#160;elimination.cpp'],['../elimination_8h.html#a3c1d3473ee29d6686f9c7f079192ab0e',1,'remove_single_occs_gates(FILE *file):&#160;elimination.cpp']]],
+  ['remove_5fslice_5fminus_5fone_5fgates',['remove_slice_minus_one_gates',['../elimination_8cpp.html#a3ad68857ce6f50a4fd7a1f0cadcc888d',1,'remove_slice_minus_one_gates(FILE *file):&#160;elimination.cpp'],['../elimination_8h.html#a3ad68857ce6f50a4fd7a1f0cadcc888d',1,'remove_slice_minus_one_gates(FILE *file):&#160;elimination.cpp']]],
+  ['reset_5faig_5fparsing',['reset_aig_parsing',['../aig_8cpp.html#a8fcb5401ee743fae1b30a70917f6c2fc',1,'reset_aig_parsing():&#160;aig.cpp'],['../aig_8h.html#a8fcb5401ee743fae1b30a70917f6c2fc',1,'reset_aig_parsing():&#160;aig.cpp']]],
+  ['reset_5faig_5fsubstitution',['reset_aig_substitution',['../aig_8cpp.html#a900381a71c202dfc87cd313738089feb',1,'reset_aig_substitution():&#160;aig.cpp'],['../aig_8h.html#a900381a71c202dfc87cd313738089feb',1,'reset_aig_substitution():&#160;aig.cpp']]],
+  ['reset_5fall',['reset_all',['../amulet_8cpp.html#ae81438fba01fe6c029fa9f6c52366ce1',1,'amulet.cpp']]],
+  ['reset_5fall_5fsignal_5fhandlers',['reset_all_signal_handlers',['../signal__statistics_8cpp.html#ada37d668f54187fd22d9dc27ed166f6c',1,'reset_all_signal_handlers():&#160;signal_statistics.cpp'],['../signal__statistics_8h.html#ada37d668f54187fd22d9dc27ed166f6c',1,'reset_all_signal_handlers():&#160;signal_statistics.cpp']]],
+  ['reset_5ffsa_5finp',['reset_fsa_inp',['../classGate.html#a1eca64443fff7e40d4a477cc9dfb6353',1,'Gate']]]
+];

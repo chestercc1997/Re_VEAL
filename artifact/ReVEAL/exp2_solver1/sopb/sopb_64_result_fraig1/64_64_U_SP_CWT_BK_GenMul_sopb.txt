@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_sopb/64_64_U_SP_CWT_BK_GenMul_sopb.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  34.11 %  P =      0  D =      0  F =       0  cst =     2214  cls =   21817  lit =    28211   Time =     0.00 sec
+Sim    1 :  31.65 %  P =      0  D =      0  F =       0  cst =     1304  cls =   23121  lit =    26179   Time =     0.01 sec
+Sim    2 :  31.27 %  P =      0  D =      0  F =       0  cst =     1135  cls =   23330  lit =    25863   Time =     0.00 sec
+Sim    3 :  31.04 %  P =      0  D =      0  F =       0  cst =     1032  cls =   23448  lit =    25672   Time =     0.00 sec
+Sim    4 :  30.89 %  P =      0  D =      0  F =       0  cst =      989  cls =   23526  lit =    25547   Time =     0.00 sec
+Sim    5 :  30.17 %  P =      0  D =    107  F =       0  cst =      734  cls =   23919  lit =    24949   Time =     0.15 sec
+SAT    6 : 100.00 %  P =   6043  D =     69  F =       9  cst =      655  cls =   23878  lit =    24756   Time =  4884.48 sec
+SAT calls = 6121:  P = 6043 (0=74 a=118.72 m=229671)  D = 69 (0=4 a=78688.91 m=474035)  F = 9   Sim = 14  Recyc = 12  Xor = 2.74 %
+SAT solving   =  4884.38 sec ( 99.99 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =  1587.39 sec ( 32.50 %)
+  unsat(easy) =     0.00 sec (  0.00 %)
+  unsat       =   249.44 sec (  5.11 %)
+  fail        =  3047.55 sec ( 62.39 %)
+Generate CNF  =     0.14 sec (  0.00 %)
+Generate pats =     0.15 sec (  0.00 %)
+Simulation    =     0.02 sec (  0.00 %)
+Refinement    =     0.01 sec (  0.00 %)
+Resim global  =     0.00 sec (  0.00 %)
+Resim local   =     0.08 sec (  0.00 %)
+Other         =     0.02 sec (  0.00 %)
+TOTAL         =  4884.65 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_sopb/64_64_U_SP_CWT_BK_GenMul_sopb_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_CWT_RC_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 4884.79 seconds, total: 4884.79 seconds

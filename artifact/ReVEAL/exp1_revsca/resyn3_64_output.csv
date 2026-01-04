@@ -1,0 +1,65 @@
+﻿File Name,Circuit Status,Time Overall,Memory Usage
+64_64_U1_DT_RC_Multgen_resyn3,correct,2.79428,34920
+64_64_U_SP_AR_SE_GenMul_resyn3,correct,3.03515,MO
+64_64_U_SP_DT_RC_GenMul_resyn3,correct,3.32465,34884
+64_64_U1_4to2_RC_Multgen_resyn3,correct,3.60781,39292
+64_64_U_SP_WT_SE_GenMul_resyn3,correct,3.64041,37184
+64_64_U_SP_AR_RC_GenMul_resyn3,correct,3.77272,40320
+64_64_U_SP_AR_BK_GenMul_resyn3,correct,4.03015,40312
+64_64_U_SP_DT_SE_GenMul_resyn3,correct,4.12311,34748
+64_64_U_SP_AR_KS_GenMul_resyn3,correct,4.12398,40676
+64_64_U1_DT_LF_Multgen_resyn3,correct,4.47471,36660
+64_64_U1_WT_RC_Multgen_resyn3,correct,4.51414,37136
+64_64_U1_DT_JCA_Multgen_resyn3,correct,4.55655,36748
+64_64_U_SP_DT_BK_GenMul_resyn3,correct,5.06196,36680
+64_64_U_SP_WT_RC_GenMul_resyn3,correct,5.08918,37072
+64_64_U_SP_DT_LF_GenMul_resyn3,correct,5.23398,36716
+64_64_U1_WT_LF_Multgen_resyn3,correct,5.24374,39064
+64_64_U1_WT_JCA_Multgen_resyn3,correct,5.27001,38992
+64_64_U_SP_AR_LF_GenMul_resyn3,correct,5.39126,40444
+64_64_U1_4to2_LF_Multgen_resyn3,correct,5.39868,40380
+64_64_U1_DT_BK_Multgen_resyn3,correct,5.43668,36676
+64_64_U1_WT_BK_Multgen_resyn3,correct,5.45602,38936
+64_64_U1_4to2_BK_Multgen_resyn3,correct,5.9197,39500
+64_64_U_SP_WT_BK_GenMul_resyn3,correct,6.0056,38816
+64_64_U1_4to2_JCA_Multgen_resyn3,correct,6.2216,40368
+64_64_U_SP_WT_LF_GenMul_resyn3,correct,6.43397,39044
+64_64_U_SP_WT_CK_GenMul_resyn3,correct,7.10268,44176
+64_64_U_SP_DT_KS_GenMul_resyn3,correct,10.3091,37504
+64_64_U_SP_WT_KS_GenMul_resyn3,correct,11.3266,40008
+64_64_U2_4to2_RC_Multgen_resyn3,correct,12.6438,45740
+64_64_U2_DT_RC_Multgen_resyn3,correct,13.1533,41832
+64_64_U2_4to2_BK_Multgen_resyn3,correct,13.5442,45668
+64_64_U1_DT_KS_Multgen_resyn3,correct,14.0533,40396
+64_64_U2_DT_BK_Multgen_resyn3,correct,14.1126,43316
+64_64_U1_WT_KS_Multgen_resyn3,correct,14.2142,43528
+64_64_U2_WT_RC_Multgen_resyn3,correct,14.6805,43464
+64_64_U2_WT_BK_Multgen_resyn3,correct,16.169,45344
+64_64_U2_DT_JCA_Multgen_resyn3,correct,16.3654,43204
+64_64_U2_WT_JCA_Multgen_resyn3,correct,16.7382,45536
+64_64_U2_DT_LF_Multgen_resyn3,correct,17.3118,43252
+64_64_U_SP_CWT_CK_GenMul_resyn3,correct,17.3961,39192
+64_64_U2_WT_LF_Multgen_resyn3,correct,17.4913,45440
+64_64_U2_4to2_LF_Multgen_resyn3,correct,18.5303,47952
+64_64_U2_4to2_JCA_Multgen_resyn3,correct,18.6746,47792
+64_64_U_SP_CWT_LF_GenMul_resyn3,correct,19.0165,38348
+64_64_U_SP_CWT_SE_GenMul_resyn3,correct,20.0439,36928
+64_64_U_SP_CWT_RC_GenMul_resyn3,correct,20.5547,36956
+64_64_U_SP_CWT_BK_GenMul_resyn3,correct,20.7504,38064
+64_64_U1_4to2_KS_Multgen_resyn3,correct,35.393,52728
+64_64_U2_DT_HCA_Multgen_resyn3,correct,164.764,115224
+64_64_U1_4to2_HCA_Multgen_resyn3,correct,173.449,117832
+64_64_U1_DT_HCA_Multgen_resyn3,correct,204.562,142820
+64_64_U1_WT_HCA_Multgen_resyn3,correct,258.478,129112
+64_64_U2_WT_HCA_Multgen_resyn3,correct,272.35,136924
+64_64_U2_4to2_KS_Multgen_resyn3,correct,297.399,107888
+64_64_U_SP_DT_CK_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U_SP_CWT_KS_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U_SP_DT_CL_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U_SP_AR_CL_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U_SP_WT_CL_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U_SP_CWT_CL_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U_SP_AR_CK_GenMul_resyn3,AIG FILE MISSING,,MO
+64_64_U2_4to2_HCA_Multgen_resyn3,AIG FILE MISSING,TO,
+64_64_U2_DT_KS_Multgen_resyn3,AIG FILE MISSING,TO,
+64_64_U2_WT_KS_Multgen_resyn3,AIG FILE MISSING,TO,

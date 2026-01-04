@@ -1,0 +1,40 @@
+read /export2/cchen099/Zhang_lab_user_backup/sat_mul_amulet/exp_tool/RevSCA-2.0/Benchmarks/unsigned_mul_dc2/16bit-BP-AR-BL_dc2.aig
+&cone -c -R 10 -O 0;
+show -a
+&show -a
+show_bdd
+source -s abc.rc
+read /export2/cchen099/Zhang_lab_user_backup/sat_mul_amulet/exp_tool/RevSCA-2.0/Benchmarks/unsigned_multipliers/16bit-BP-AR-BL.aig
+&get
+&cone -c -R 10 -O 0
+&put
+topmost -N 10
+logic
+bdd 
+bdd -h
+show_bdd -h
+show_bdd -g -c -w
+&cone -h
+&cone -c -R 10 -O 0
+&put
+topmost -h
+source -s abc.rc
+read /export2/cchen099/Zhang_lab_user_backup/sat_mul_amulet/exp_tool/RevSCA-2.0/Benchmarks/unsigned_multipliers/16bit-BP-AR-BL.aig
+&get
+&cone -c -R 5 -O 0
+&put 
+topmost -N 5
+logic 
+bdd -h
+bdd -r
+show_bdd -h
+show_bdd -g -r -w
+&get
+&cone -c -R 5 -O 0
+&put
+topmost -N 5
+logic
+source -s abc.rc
+read /export2/cchen099/Zhang_lab_user_backup/sat_mul_amulet/exp_tool/RevSCA-2.0/Benchmarks/unsigned_multipliers/32bit-BP-AR-BL.aig
+bdd -h
+write -h

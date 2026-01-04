@@ -1,0 +1,27 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_mfs/64_64_U2_WT_KS_Multgen_mfs.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  25.96 %  P =      0  D =      0  F =       0  cst =     1114  cls =   21360  lit =    23539   Time =     0.00 sec
+Sim    1 :  24.87 %  P =      0  D =      0  F =       0  cst =      734  cls =   21499  lit =    22552   Time =     0.00 sec
+Sim    2 :  24.76 %  P =      0  D =      0  F =       0  cst =      683  cls =   21514  lit =    22456   Time =     0.00 sec
+Sim    3 :  24.69 %  P =      0  D =      0  F =       0  cst =      657  cls =   21521  lit =    22391   Time =     0.00 sec
+Sim    4 :  24.68 %  P =      0  D =      0  F =       0  cst =      654  cls =   21518  lit =    22380   Time =     0.00 sec
+Sim    5 :  24.66 %  P =      0  D =      0  F =       0  cst =      651  cls =   21516  lit =    22366   Time =     0.06 sec
+SAT    6 : 100.00 %  P =   9744  D =     29  F =       3  cst =      625  cls =   21513  lit =    22295   Time =   692.09 sec
+SAT calls = 9776:  P = 9744 (0=3 a=4.25 m=65)  D = 29 (0=10 a=78416.73 m=810395)  F = 3   Sim = 13  Recyc = 19  Xor = 14.84 %
+SAT solving   =   692.07 sec ( 99.99 %)
+  sat(easy)   =     0.00 sec (  0.00 %)
+  sat         =   194.05 sec ( 28.04 %)
+  unsat(easy) =     0.00 sec (  0.00 %)
+  unsat       =     0.24 sec (  0.03 %)
+  fail        =   497.78 sec ( 71.92 %)
+Generate CNF  =     0.10 sec (  0.01 %)
+Generate pats =     0.05 sec (  0.01 %)
+Simulation    =     0.01 sec (  0.00 %)
+Refinement    =     0.00 sec (  0.00 %)
+Resim global  =     0.00 sec (  0.00 %)
+Resim local   =     0.01 sec (  0.00 %)
+Other         =     0.01 sec (  0.00 %)
+TOTAL         =   692.17 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_mfs/64_64_U2_WT_KS_Multgen_mfs_/data/artifact/AMulet2.0_artifact/64_default/64_64_U2_WT_RC_Multgen_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 692.25 seconds, total: 692.25 seconds

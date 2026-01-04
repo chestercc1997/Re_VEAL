@@ -1,0 +1,10 @@
+创建日志文件: ./mfs_128_result/128_128_U_SP_DT_KS_GenMul_mfs/output.txt
+缺失输出文件: ./cnf_mfs_128/128_128_U_SP_DT_KS_GenMul_mfs/cnf3.cnf
+缺失对应的AIG文件: /data/artifact/AMulet2.0_artifact/128_default/128_128_U_SP_DT_HCA_GenMul_default.aig
+ABC command line: "cec '/data/artifact/AMulet2.0_artifact/128_mfs/128_128_U_SP_DT_KS_GenMul_mfs.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U_SP_DT_KS_GenMul_default.aig'".
+
+Networks are equivalent.  Time =    29.00 sec
+parallel: This job finished:
+/usr/bin/time -v ./abc -c "cec '/data/artifact/AMulet2.0_artifact/128_mfs/128_128_U_SP_DT_KS_GenMul_mfs.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U_SP_DT_KS_GenMul_default.aig'" 2> /tmp/tmp.yHI7on6rvl
+Total memory usage: 258672 KB
+处理完成，输出文件在: ./mfs_128_result/128_128_U_SP_DT_KS_GenMul_mfs

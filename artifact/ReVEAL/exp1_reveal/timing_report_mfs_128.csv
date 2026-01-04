@@ -1,0 +1,9 @@
+﻿File Name,Time (seconds),Memory (KB),Method
+128_128_U1_DT_HCA_Multgen_mfs,40.13,253576,sat-sweeping
+128_128_U1_WT_HCA_Multgen_mfs,42.69,258824,sat-sweeping
+128_128_U_SP_DT_CK_GenMul_mfs,24.84,254828,sat-sweeping
+128_128_U_SP_DT_KS_GenMul_mfs,29.00,258672,sat-sweeping
+128_128_U_SP_WT_CK_GenMul_mfs,108.51,259384,sat-sweeping
+128_128_U_SP_WT_KS_GenMul_mfs,54.11,262736,sat-sweeping
+128_128_U_SP_WT_LF_GenMul_mfs,41.21,260028,sat-sweeping
+128_128_U_SP_DT_CL_GenMul_mfs,211.07,256328,sat-sweeping

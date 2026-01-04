@@ -1,0 +1,9 @@
+bottommost -h
+help
+cut -h
+cone -h
+&cone -h
+source -s abc.rc
+read /export2/cchen099/Zhang_lab_user_backup/sat_mul_amulet/exp_tool/RevSCA-2.0/Benchmarks/128_128_dataset_total/default_U/128_128_U1_4to2_BK_Multgen_default.aig
+&cec /data/exp_tool/RevSCA-2.0/Benchmarks/128_128_dataset_total/default_U/128_128_U1_4to2_BK_Multgen_default.aig  /data/sat_mul_amulet/exp_tool/RevSCA-2.0/Benchmarks/128_128_dataset_total/resyn3_U/128_128_U1_4to2_BK_Multgen_resyn3.aig
+&cec /data/exp_tool/RevSCA-2.0/Benchmarks/128_128_dataset_total/default_U/128_128_U1_4to2_BK_Multgen_default.aig  /data/exp_tool/RevSCA-2.0/Benchmarks/128_128_dataset_total/resyn3_U/128_128_U1_4to2_BK_Multgen_resyn3.aig

@@ -1,0 +1,6 @@
+成功：dynphaseorderopt 运行完成。
+峰值内存使用：80316 KB
+总运行时间：138 秒
+成功：dynphaseorderopt 运行完成。
+峰值内存使用：80372 KB
+总运行时间：110 秒

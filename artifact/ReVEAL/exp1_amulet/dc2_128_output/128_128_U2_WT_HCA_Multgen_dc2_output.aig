@@ -1,0 +1,41 @@
+[amulet2] AMulet Version 2.2
+[amulet2] Aiger multiplier examination tool
+[amulet2] Copyright(C) 2020, 2021, Daniela Kaufmann, Johannes Kepler University Linz
+[amulet2] selected mode: verification
+[amulet2] reading '/data/artifact/AMulet2.0_artifact/128_dc2/128_128_U2_WT_HCA_Multgen_dc2.aig'
+[amulet2] MILOA 185578 256 0 256 185322
+[amulet2] assuming ordering as in the ABC generated or AOKI benchmarks
+[amulet2] allocating 185834 gates
+[amulet2] found 131 partial products
+[amulet2] assuming booth recoding
+[amulet2] found 32300 xor-gates
+[amulet2] marking xor chain gates
+[amulet2] marked 7 xor gates in last slice
+[amulet2] remove internal xor gates
+[amulet2] removed 32109 internal xor gates
+[amulet2] slicing based on xor
+[amulet2] remove single occurence gates
+[amulet2] removed 67443 single occurence gates
+[amulet2] insert l370804 after l370820
+[amulet2] insert l370646 after l370648
+[amulet2] insert l370780 after l370784
+[amulet2] insert l370774 after l370776
+[amulet2] insert l370768 after l370770
+[amulet2] insert l370924 after l370926
+[amulet2] insert l370608 after l370762
+[amulet2] insert l371032 after l371034
+[amulet2] insert l370754 after l370912
+[amulet2] slicing based on input cones
+[amulet2] totally merged 35677 variable(s)
+[amulet2] totally promoted 2541 variable(s)
+[amulet2] filled 256 slices
+[amulet2] eliminate single occs
+[amulet2] decomposed 365 variables
+[amulet2] 
+[amulet2] 
+[amulet2] started reducing
+[amulet2] reducing by slice 255
+[amulet2] reducing by slice 254
+[amulet2] reducing by slice 253
+[amulet2] reducing by slice 252
+[amulet2] reducing by slice 251

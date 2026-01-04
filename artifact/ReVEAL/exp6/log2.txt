@@ -1,0 +1,143 @@
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_AR_CK_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_AR_CK_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_AR_SE_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_AR_CK_Multgen_resyn3/cnf1.cnf".
+
+Cannot open input file "/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_AR_SE_Multgen_default.aig". 
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_AR_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_AR_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_AR_KS_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_AR_CL_Multgen_resyn3/cnf1.cnf".
+
+Cannot open input file "/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_AR_KS_Multgen_default.aig". 
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_AR_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_AR_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_AR_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_AR_RC_Multgen_resyn3/cnf1.cnf".
+
+Cannot open input file "/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_AR_RC_Multgen_default.aig". 
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_KS_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_BD_KS_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_KS_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  23266  lev = 62
+CNF stats: Vars =   8377. Clauses =   35392. Literals =   102443.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_KS_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_BD_KS_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_KS_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  23266  lev = 62
+CNF stats: Vars =   8377. Clauses =   35392. Literals =   102443.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_HCA_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_BD_KS_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_BD_KS_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_HCA_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  22954  lev = 62
+CNF stats: Vars =   8130. Clauses =   34602. Literals =   100489.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CN_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CN_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_CN_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CN_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  20149  lev =196
+CNF stats: Vars =   8359. Clauses =   34031. Literals =    97462.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_BK_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_CT_BK_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_BK_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  20496  lev = 56
+CNF stats: Vars =   7173. Clauses =   29828. Literals =    87515.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CN_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CN_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_CN_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CN_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  20149  lev =196
+CNF stats: Vars =   8359. Clauses =   34031. Literals =    97462.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_BK_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_CT_BK_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_BK_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  20496  lev = 56
+CNF stats: Vars =   7173. Clauses =   29828. Literals =    87515.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_HCA_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_CT_BK_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_CT_BK_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_HCA_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  20712  lev = 53
+CNF stats: Vars =   7311. Clauses =   30303. Literals =    88723.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_DT_LF_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  21101  lev = 52
+CNF stats: Vars =   7321. Clauses =   32209. Literals =    94785.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_CL_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_WT_CL_Multgen_resyn3/cnf1.cnf".
+
+Cannot open input file "/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_CL_Multgen_default.aig". 
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_DT_LF_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  21101  lev = 52
+CNF stats: Vars =   7321. Clauses =   32209. Literals =    94785.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_JCA_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_DT_LF_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_DT_LF_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_DT_JCA_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  21101  lev = 52
+CNF stats: Vars =   7321. Clauses =   32209. Literals =    94785.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_WT_CL_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_CL_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  25718  lev = 86
+CNF stats: Vars =  10332. Clauses =   42423. Literals =   120722.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_CL_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_AR_CL_Multgen_resyn3/cnf1.cnf".
+
+Cannot open input file "/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_CL_Multgen_default.aig". 
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_WT_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  21389  lev =193
+CNF stats: Vars =   7477. Clauses =   32456. Literals =    95084.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U1_WT_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U1_WT_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U1_WT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  21389  lev =193
+CNF stats: Vars =   7477. Clauses =   32456. Literals =    95084.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_AR_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24535  lev =198
+CNF stats: Vars =   7881. Clauses =   35034. Literals =   104412.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_AR_CL_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_CL_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  28207  lev = 99
+CNF stats: Vars =   9964. Clauses =   42323. Literals =   123145.   Time =     0.05 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_AR_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_AR_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24535  lev =198
+CNF stats: Vars =   7881. Clauses =   35034. Literals =   104412.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_CT_BK_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_CT_BK_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_BK_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_CT_BK_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_CT_BK_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_BK_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24296  lev = 59
+CNF stats: Vars =   7920. Clauses =   34161. Literals =   101529.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_CT_BK_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_CT_BK_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_BK_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_CT_BK_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_CT_BK_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_BK_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24296  lev = 59
+CNF stats: Vars =   7920. Clauses =   34161. Literals =   101529.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_DT_LF_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24127  lev = 54
+CNF stats: Vars =   7683. Clauses =   34355. Literals =   102457.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_DT_LF_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24127  lev = 54
+CNF stats: Vars =   7683. Clauses =   34355. Literals =   102457.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_JCA_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_DT_LF_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_DT_LF_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_DT_JCA_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24127  lev = 54
+CNF stats: Vars =   7683. Clauses =   34355. Literals =   102457.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_OS_CU_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  25705  lev = 53
+CNF stats: Vars =   8286. Clauses =   36556. Literals =   108841.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_CL_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_CL_Multgen_resyn3/cnf1.cnf".
+
+Cannot open input file "/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_CL_Multgen_default.aig". 
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_OS_CU_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  25705  lev = 53
+CNF stats: Vars =   8286. Clauses =   36556. Literals =   108841.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_JCA_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_OS_CU_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_OS_CU_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_JCA_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  25705  lev = 53
+CNF stats: Vars =   8286. Clauses =   36556. Literals =   108841.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CL_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CL_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_CL_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CL_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  28938  lev = 90
+CNF stats: Vars =  10851. Clauses =   45429. Literals =   131127.   Time =     0.05 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_CS_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24951  lev = 70
+CNF stats: Vars =   8044. Clauses =   35830. Literals =   106944.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_CS_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_LF_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24951  lev = 70
+CNF stats: Vars =   8044. Clauses =   35830. Literals =   106944.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_KS_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_CS_Multgen_resyn3/cnf2.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_CS_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_KS_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  25299  lev = 70
+CNF stats: Vars =   8344. Clauses =   36718. Literals =   108978.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24330  lev =198
+CNF stats: Vars =   7777. Clauses =   34695. Literals =   103514.   Time =     0.04 sec
+ABC command line: "read /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_RC_Multgen_resyn3.aig; miter -n /data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_RC_Multgen_resyn3.aig /data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default.aig; st; ps; write_cnf ./cnf_resyn3_32/32_32_U2_WT_RC_Multgen_resyn3/cnf1.cnf".
+
+[1;37m/data/artifact/AMulet2.0_artifact/32_resyn3/32_32_U2_WT_RC_Multgen_resyn3_/data/artifact/AMulet2.0_artifact/32_default/32_32_U2_WT_RC_Multgen_default_miter:[0m i/o =   64/    1  lat =    0  and =  24330  lev =198
+CNF stats: Vars =   7777. Clauses =   34695. Literals =   103514.   Time =     0.04 sec
+处理完成，输出文件在: ./cnf_resyn3_32

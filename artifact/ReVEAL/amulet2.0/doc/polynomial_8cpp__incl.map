@@ -1,0 +1,7 @@
+<map id="polynomial.cpp" name="polynomial.cpp">
+<area shape="rect" id="node2" href="$polynomial_8h.html" title="contains arithmetic operations for polynomials " alt="" coords="91,80,185,107"/>
+<area shape="rect" id="node6" href="$monomial_8h.html" title="contains the class Monomial and further functions to manipulate monomials " alt="" coords="236,155,325,181"/>
+<area shape="rect" id="node8" href="$term_8h.html" title="contains the class Term and further functions to manipulate terms " alt="" coords="293,229,351,256"/>
+<area shape="rect" id="node10" href="$variable_8h.html" title="contains the class Var " alt="" coords="328,304,407,331"/>
+<area shape="rect" id="node11" href="$hash__val_8h.html" title="contains functions used to compute hash values for variables " alt="" coords="325,379,410,405"/>
+</map>

@@ -1,0 +1,10 @@
+创建日志文件: ./resyn3_128_result/128_128_U1_4to2_JCA_Multgen_resyn3/output.txt
+ABC command line: "miter '/data/artifact/AMulet2.0_artifact/128_resyn3/128_128_U1_4to2_JCA_Multgen_resyn3.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U1_4to2_LF_Multgen_default.aig'; &get; &glucose2;".
+
+CNF stats: Vars =  58359. Clauses =  262407. Literals =   824535. Time =     0.55 sec
+c Simplification removed 4594 variables and 17724 clauses.  Time =     0.63 sec
+UNSATISFIABLE      Time =    99.12 sec
+parallel: This job finished:
+/usr/bin/time -v ./abc -c "miter '/data/artifact/AMulet2.0_artifact/128_resyn3/128_128_U1_4to2_JCA_Multgen_resyn3.aig' '/data/artifact/AMulet2.0_artifact/128_default/128_128_U1_4to2_LF_Multgen_default.aig'; &get; &glucose2;" 2> /tmp/tmp.CniQkCnexj
+Total memory usage: 129500 KB
+处理完成，输出文件在: ./resyn3_128_result/128_128_U1_4to2_JCA_Multgen_resyn3

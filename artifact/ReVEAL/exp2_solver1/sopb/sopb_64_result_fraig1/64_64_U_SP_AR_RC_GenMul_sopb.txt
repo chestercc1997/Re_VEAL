@@ -1,0 +1,29 @@
+ABC command line: "miter /data/artifact/AMulet2.0_artifact/64_sopb/64_64_U_SP_AR_RC_GenMul_sopb.aig /data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default.aig;&get;&fraig -x -v;&ps;time".
+
+Solver type = 2. Simulate 4 words in 10 rounds. SAT with 1000000 confs. Recycle after 500 SAT calls.
+Sim    0 :  19.18 %  P =      0  D =      0  F =       0  cst =      978  cls =   24831  lit =    26907   Time =     0.00 sec
+Sim    1 :  18.90 %  P =      0  D =      0  F =       0  cst =      888  cls =   24618  lit =    26510   Time =     0.01 sec
+Sim    2 :  18.90 %  P =      0  D =      0  F =       0  cst =      886  cls =   24616  lit =    26505   Time =     0.01 sec
+Sim    3 :  18.89 %  P =      0  D =      0  F =       0  cst =      884  cls =   24614  lit =    26499   Time =     0.01 sec
+Sim    4 :  18.89 %  P =      0  D =      0  F =       0  cst =      880  cls =   24609  lit =    26490   Time =     0.01 sec
+Sim    5 :  18.89 %  P =      0  D =      0  F =       0  cst =      879  cls =   24609  lit =    26488   Time =     0.55 sec
+SAT    6 :  55.60 %  P =   2331  D =    254  F =       0  cst =      753  cls =   24454  lit =    26039   Time =  2921.31 sec
+SAT    7 :  98.51 %  P =  13874  D =    508  F =       1  cst =      628  cls =   24314  lit =    25581   Time =  3438.62 sec
+SAT    8 : 100.00 %  P =  14067  D =    518  F =       1  cst =      628  cls =   24297  lit =    25552   Time =    15.86 sec
+SAT calls = 14586:  P = 14067 (0=975 a=8.82 m=107)  D = 518 (0=6 a=28357.53 m=889990)  F = 1   Sim = 15  Recyc = 29  Xor = 2.88 %
+SAT solving   =  6374.84 sec ( 99.98 %)
+  sat(easy)   =     0.06 sec (  0.00 %)
+  sat         =  6030.25 sec ( 94.57 %)
+  unsat(easy) =     0.10 sec (  0.00 %)
+  unsat       =     9.43 sec (  0.15 %)
+  fail        =   334.99 sec (  5.25 %)
+Generate CNF  =     3.66 sec (  0.06 %)
+Generate pats =     0.55 sec (  0.01 %)
+Simulation    =     0.04 sec (  0.00 %)
+Refinement    =     0.01 sec (  0.00 %)
+Resim global  =     0.01 sec (  0.00 %)
+Resim local   =     0.91 sec (  0.01 %)
+Other         =     0.05 sec (  0.00 %)
+TOTAL         =  6376.39 sec (100.00 %)
+[1;37m/data/artifact/AMulet2.0_artifact/64_sopb/64_64_U_SP_AR_RC_GenMul_sopb_/data/artifact/AMulet2.0_artifact/64_default/64_64_U_SP_AR_RC_GenMul_default_miter[0m : i/o =    128/      1  [1;36mand =       0[0m  [1;35mlev =    0[0m [1;35m(0.00)[0m  mem = 0.00 MB
+elapse: 6376.59 seconds, total: 6376.59 seconds
